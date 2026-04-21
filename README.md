@@ -56,7 +56,13 @@ The core model (`ImprovedGIN_GAT`) uses a dual-path design to combine local grap
 
 ## Results
 
-See `results/complexity_metrics.json` for full test-set metrics.
+Evaluated on a held-out test set of 64 circuits:
+
+| Metric | Value |
+|---|---|
+| R² | 0.967 |
+| MAE | 0.154 |
+| Best validation R² | 0.956 |
 
 ![results](results/best_complexity_model_results.png)
 
@@ -156,7 +162,6 @@ config/
 ## Academic Context
 
 This project was developed as a diploma thesis exploring the application of graph neural networks to electronic design automation (EDA). The central question: can structural properties visible in a gate-level netlist predict synthesis complexity well enough to replace expensive tool runs in early-stage design exploration?
-
 
 ---
 
