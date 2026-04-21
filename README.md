@@ -23,14 +23,18 @@ Gate-level Verilog netlist (.v)
   Netlist Parser         identifies gates, connections, port types
         │
         ▼
-  Graph Converter        builds PyTorch Geometric Data object
-                         nodes: gate type, fanin, fanout, depth
-                         edges: signal flow between gates
+  NetworkX Graph         structural analysis via BFS, DFS, Tarjan
+                         computes: depth, feedback ratio, SCC size,
+                         sequential ratio, XOR density, entropy
         │
         ▼
-  GIN + GAT Model        dual-path architecture:
-    ├── GNN path         message passing → captures local structure
-    └── Global path      circuit-level features → captures global properties
+  PyG Graph Builder      builds PyTorch Geometric Data object
+                         24-dim node features + 10-dim global features
+                         → 34-dim combined input per node
+        │
+        ▼
+  GIN + GAT Model        34→48 projection → 2 GIN layers → 2 GAT layers
+                         (4 attention heads) → triple pooling → MLP
         │
         ▼
   Complexity Score       0.0 (simple) → 5.0 (highly complex)
@@ -40,11 +44,14 @@ Gate-level Verilog netlist (.v)
 
 ## Model Architecture
 
-The core model (`ImprovedGIN_GAT`) uses a dual-path design to combine local graph structure with global circuit-level features:
+The core model (`ImprovedGIN_GAT`) uses a single-path design where global circuit-level features are broadcast to all nodes to combine local graph structure with global circuit-level features:
 
-- **GNN path** — stacked GIN layers for message passing, followed by GAT layers for attention-weighted aggregation, with triple pooling (sum + mean + max)
-- **Global path** — a dedicated MLP branch that processes circuit-level features (depth, gate count, feedback ratio, XOR density, sequential ratio) independently to prevent GNN noise from drowning out the signal
-- Both paths are concatenated and passed through a regression head
+- **Input** — 24-dim node features concatenated with 10-dim global features → 34-dim per node
+- **Projection** — linear layer (34→48)
+- **GIN layers** — 2 layers with residual connections, sum aggregation
+- **GAT layers** — 2 layers with 4 attention heads
+- **Pooling** — triple pooling (sum + mean + max)
+- **Regression head** — fusion MLP → complexity score
 
 **Training details:**
 - Loss: HuberLoss (robust to outliers)
@@ -62,6 +69,8 @@ Evaluated on a held-out test set of 64 circuits:
 |---|---|
 | R² | 0.967 |
 | MAE | 0.154 |
+| RMSE | 0.2518 |
+| Pearson r | 0.9834 |
 | Best validation R² | 0.956 |
 
 ![results](results/best_complexity_model_results.png)
@@ -90,7 +99,7 @@ python src/circuit_complexity_gui.py
 **Predict from the command line**
 ```bash
 python scripts/evaluate_model.py \
-    --model models/best_complexity_model_v2.pt \
+    --model models/best_complexity_model.pt \
     --data-dir data/processed_complexity \
     --uncertainty
 ```
@@ -103,9 +112,11 @@ python src/preprocess_dataset.py \
     --output  data/processed_complexity
 
 # Step 2: train
-python src/circuit_complexity_model.py \
+python src/circuit_complexity_model_v2.py \
     --data-dir data/processed_complexity \
-    --output   models/best_complexity_model.pt
+    --output   models/best_complexity_model_v2.pt
+# Step 3: deploy checkpoint
+cp best_complexity_model_v2.pt models/best_complexity_model.pt
 ```
 
 ---
@@ -124,7 +135,7 @@ To use your own circuits: place gate-level Verilog `.v` files in `data/raw/`, th
 
 ```
 src/
-  circuit_complexity_model.py     GIN+GAT model and training pipeline
+  circuit_complexity_model_v2.py     GIN+GAT model and training pipeline
   circuit_complexity_gui.py       PyQt5 GUI application
   circuit_graph_widget.py         Circuit graph visualization widget
   preprocess_dataset.py           Verilog → PyTorch Geometric pipeline
@@ -141,7 +152,7 @@ tests/
   test_model.py                   Model architecture and checkpoint tests
   test_netlist_parser.py          Netlist parser unit tests
 models/
-  best_complexity_model_v2.pt     Primary trained checkpoint
+  best_complexity_model.pt Primary trained checkpoint (V2)
 results/
   complexity_metrics.json         Test set evaluation metrics
 config/
