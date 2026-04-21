@@ -71,7 +71,7 @@ Evaluated on a held-out test set of 64 circuits:
 ## Installation
 
 ```bash
-git clone https://github.com/anngalstyan/circuit-complexity-gnn.git
+git clone https://github.com/anngalstyan/Circuit-Complexity-GNN.git
 cd circuit-complexity-gnn
 pip install -r requirements.txt
 ```
