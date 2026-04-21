@@ -153,10 +153,11 @@ tests/
   test_netlist_parser.py          Netlist parser unit tests
 models/
   best_complexity_model.pt Primary trained checkpoint (V2)
-results/
-  complexity_metrics.json         Test set evaluation metrics
-config/
-  experiment_config.json          Hyperparameters and experiment settings
+plots/
+  dataset_overview.png              Score distribution, circuit sizes, train/val/test split
+  yosys_speed_comparison.png        GNN vs Yosys synthesis time by circuit size
+  yosys_validation.png              Parser vs Yosys gate count, depth, and model vs formula correlation
+
 ```
 
 ---
