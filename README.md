@@ -1,0 +1,172 @@
+# Circuit Complexity Predictor
+
+A Graph Neural Network (GNN) system that predicts the structural complexity of digital circuits from gate-level Verilog netlists. Built as a diploma thesis at the National Polytechnic University of Armenia, 2026.
+
+![screenshot](assets/screenshots/preview.png)
+
+---
+
+## The Problem
+
+When designing a digital circuit (a CPU, a memory controller, an encryption core), engineers need to understand how complex it is — how deep the logic paths are, how many feedback loops exist, how difficult it will be to synthesize and optimize. Traditionally this requires running expensive EDA tools like Yosys or Synopsys.
+
+This project trains a GNN to predict that complexity score directly from the circuit's netlist — skipping the expensive toolchain entirely. The circuit is modeled as a directed graph where nodes are logic gates and edges are connections between them, and the model learns structural patterns that correlate with complexity.
+
+---
+
+## How It Works
+
+```
+Gate-level Verilog netlist (.v)
+        │
+        ▼
+  Netlist Parser         identifies gates, connections, port types
+        │
+        ▼
+  Graph Converter        builds PyTorch Geometric Data object
+                         nodes: gate type, fanin, fanout, depth
+                         edges: signal flow between gates
+        │
+        ▼
+  GIN + GAT Model        dual-path architecture:
+    ├── GNN path         message passing → captures local structure
+    └── Global path      circuit-level features → captures global properties
+        │
+        ▼
+  Complexity Score       0.0 (simple) → 5.0 (highly complex)
+```
+
+---
+
+## Model Architecture
+
+The core model (`ImprovedGIN_GAT`) uses a dual-path design to combine local graph structure with global circuit-level features:
+
+- **GNN path** — stacked GIN layers for message passing, followed by GAT layers for attention-weighted aggregation, with triple pooling (sum + mean + max)
+- **Global path** — a dedicated MLP branch that processes circuit-level features (depth, gate count, feedback ratio, XOR density, sequential ratio) independently to prevent GNN noise from drowning out the signal
+- Both paths are concatenated and passed through a regression head
+
+**Training details:**
+- Loss: HuberLoss (robust to outliers)
+- Optimizer: AdamW with CosineAnnealingWarmRestarts
+- Regularization: input Gaussian noise, dropout, gradient clipping
+- Uncertainty: Monte Carlo dropout at inference time
+
+---
+
+## Results
+
+See `results/complexity_metrics.json` for full test-set metrics.
+
+**Ablation study** (`models/best_complexity_model_ablation.json`):
+
+| Model variant | R² | Notes |
+|---|---|---|
+| GNN only | 0.74 | Misses global circuit properties |
+| Global features only | 0.94 | Strong baseline from hand-crafted features |
+| GNN + Global (full model) | see metrics | Combines both signal types |
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/anngalstyan/circuit-complexity-gnn.git
+cd circuit-complexity-gnn
+pip install -r requirements.txt
+```
+
+**Requirements:** Python 3.11+, PyTorch 2.0+, PyTorch Geometric, PyQt5
+
+---
+
+## Usage
+
+**GUI — load a netlist and get predictions interactively**
+```bash
+python src/circuit_complexity_gui.py
+```
+
+**Predict from the command line**
+```bash
+python scripts/evaluate_model.py \
+    --model models/best_complexity_model_v2.pt \
+    --data-dir data/processed_complexity \
+    --uncertainty
+```
+
+**Train from scratch**
+```bash
+# Step 1: preprocess netlists into graph objects
+python src/preprocess_dataset.py \
+    --dataset data/augmented_filtered \
+    --output  data/processed_complexity
+
+# Step 2: train
+python src/circuit_complexity_model.py \
+    --data-dir data/processed_complexity \
+    --output   models/best_complexity_model.pt
+```
+
+---
+
+## Dataset
+
+The training data is not included in this repository due to size (~6.4 GB). The dataset consists of 812 gate-level Verilog netlists spanning common circuit families (DMA controllers, RISC processors, AES cores, DSP blocks, multipliers, FSMs) each augmented with structural variants.
+
+`data/processed_complexity/metadata.json` and `splits.json` document the dataset structure and train/val/test split.
+
+To use your own circuits: place gate-level Verilog `.v` files in `data/raw/`, then run the preprocessing script above.
+
+---
+
+## Project Structure
+
+```
+src/
+  circuit_complexity_model.py     GIN+GAT model and training pipeline
+  circuit_complexity_gui.py       PyQt5 GUI application
+  circuit_graph_widget.py         Circuit graph visualization widget
+  preprocess_dataset.py           Verilog → PyTorch Geometric pipeline
+  netlist/
+    parser.py                     Verilog netlist tokenizer and parser
+    converter.py                  Graph construction from parsed netlist
+    metrics.py                    Structural complexity metrics
+scripts/
+  evaluate_model.py               Full evaluation with uncertainty estimation
+  create_stratified_splits.py     Train/val/test splitting (group-aware)
+  smart_augmenter.py              Circuit augmentation
+  generate_circuit_families.py    Synthetic circuit generation
+tests/
+  test_model.py                   Model architecture and checkpoint tests
+  test_netlist_parser.py          Netlist parser unit tests
+models/
+  best_complexity_model_v2.pt     Primary trained checkpoint
+  best_complexity_model_ablation.json  Ablation study results
+results/
+  complexity_metrics.json         Test set evaluation metrics
+config/
+  experiment_config.json          Hyperparameters and experiment settings
+```
+
+---
+
+## What I'd Improve
+
+- The complexity score is a heuristic proxy — ground truth labels from actual synthesis timing reports would make the target more meaningful
+- The Verilog parser handles a fixed cell library; a more general parser would support arbitrary technology libraries
+- Adding an explainability layer (GNN attribution / attention visualization) to show which gates drive the complexity score
+- Packaging as a proper installable Python library with a CLI entry point
+
+---
+
+## Academic Context
+
+This project was developed as a diploma thesis exploring the application of graph neural networks to electronic design automation (EDA). The central question: can structural properties visible in a gate-level netlist predict synthesis complexity well enough to replace expensive tool runs in early-stage design exploration?
+
+
+---
+
+## License
+
+MIT
