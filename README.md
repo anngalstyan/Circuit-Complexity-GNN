@@ -136,7 +136,6 @@ tests/
   test_netlist_parser.py          Netlist parser unit tests
 models/
   best_complexity_model_v2.pt     Primary trained checkpoint
-  best_complexity_model_ablation.json  Ablation study results
 results/
   complexity_metrics.json         Test set evaluation metrics
 config/
