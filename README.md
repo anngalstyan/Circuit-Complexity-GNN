@@ -58,13 +58,7 @@ The core model (`ImprovedGIN_GAT`) uses a dual-path design to combine local grap
 
 See `results/complexity_metrics.json` for full test-set metrics.
 
-**Ablation study** (`models/best_complexity_model_ablation.json`):
-
-| Model variant | R² | Notes |
-|---|---|---|
-| GNN only | 0.74 | Misses global circuit properties |
-| Global features only | 0.94 | Strong baseline from hand-crafted features |
-| GNN + Global (full model) | see metrics | Combines both signal types |
+![results](results/best_complexity_model_results.png)
 
 ---
 
