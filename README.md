@@ -72,7 +72,7 @@ Evaluated on a held-out test set of 64 circuits:
 
 ```bash
 git clone https://github.com/anngalstyan/Circuit-Complexity-GNN.git
-cd circuit-complexity-gnn
+cd Circuit-Complexity-GNN
 pip install -r requirements.txt
 ```
 
