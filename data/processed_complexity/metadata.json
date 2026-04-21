@@ -1,0 +1,5691 @@
+{
+  "num_circuits": 812,
+  "target_metric": "complexity_score",
+  "circuit_info": [
+    {
+      "filename": "DMA_deep.v",
+      "path": "data/augmented/DMA_deep.v",
+      "gate_count": 18949,
+      "depth": 22,
+      "composite": 93.19716698799238
+    },
+    {
+      "filename": "DMA_feedback.v",
+      "path": "data/augmented/DMA_feedback.v",
+      "gate_count": 21385,
+      "depth": 22,
+      "composite": 94.46078104193234
+    },
+    {
+      "filename": "DMA_heavy.v",
+      "path": "data/augmented/DMA_heavy.v",
+      "gate_count": 19960,
+      "depth": 22,
+      "composite": 93.74202251337432
+    },
+    {
+      "filename": "DMA_original.v",
+      "path": "data/augmented/DMA_original.v",
+      "gate_count": 18649,
+      "depth": 22,
+      "composite": 93.02932430781202
+    },
+    {
+      "filename": "DMA_seq.v",
+      "path": "data/augmented/DMA_seq.v",
+      "gate_count": 19789,
+      "depth": 22,
+      "composite": 93.3457450682855
+    },
+    {
+      "filename": "DMA_xor.v",
+      "path": "data/augmented/DMA_xor.v",
+      "gate_count": 18749,
+      "depth": 22,
+      "composite": 93.08560011311218
+    },
+    {
+      "filename": "DSP_deep.v",
+      "path": "data/augmented/DSP_deep.v",
+      "gate_count": 31571,
+      "depth": 36,
+      "composite": 160.69262399220804
+    },
+    {
+      "filename": "DSP_feedback.v",
+      "path": "data/augmented/DSP_feedback.v",
+      "gate_count": 35943,
+      "depth": 36,
+      "composite": 162.88199916573245
+    },
+    {
+      "filename": "DSP_heavy.v",
+      "path": "data/augmented/DSP_heavy.v",
+      "gate_count": 33511,
+      "depth": 36,
+      "composite": 161.7021283736057
+    },
+    {
+      "filename": "DSP_original.v",
+      "path": "data/augmented/DSP_original.v",
+      "gate_count": 31271,
+      "depth": 36,
+      "composite": 160.5305275580406
+    },
+    {
+      "filename": "DSP_seq.v",
+      "path": "data/augmented/DSP_seq.v",
+      "gate_count": 33219,
+      "depth": 36,
+      "composite": 161.05078536745827
+    },
+    {
+      "filename": "DSP_xor.v",
+      "path": "data/augmented/DSP_xor.v",
+      "gate_count": 31371,
+      "depth": 36,
+      "composite": 160.5847466488207
+    },
+    {
+      "filename": "RISC_deep.v",
+      "path": "data/augmented/RISC_deep.v",
+      "gate_count": 58877,
+      "depth": 31,
+      "composite": 146.36104805488205
+    },
+    {
+      "filename": "RISC_feedback.v",
+      "path": "data/augmented/RISC_feedback.v",
+      "gate_count": 67025,
+      "depth": 31,
+      "composite": 148.29857497362838
+    },
+    {
+      "filename": "RISC_heavy.v",
+      "path": "data/augmented/RISC_heavy.v",
+      "gate_count": 62625,
+      "depth": 31,
+      "composite": 147.28702617983043
+    },
+    {
+      "filename": "RISC_original.v",
+      "path": "data/augmented/RISC_original.v",
+      "gate_count": 58577,
+      "depth": 31,
+      "composite": 146.28410248943595
+    },
+    {
+      "filename": "RISC_seq.v",
+      "path": "data/augmented/RISC_seq.v",
+      "gate_count": 62097,
+      "depth": 31,
+      "composite": 146.7293640723612
+    },
+    {
+      "filename": "RISC_xor.v",
+      "path": "data/augmented/RISC_xor.v",
+      "gate_count": 58677,
+      "depth": 31,
+      "composite": 146.30979990507305
+    },
+    {
+      "filename": "ac97_ctrl_deep.v",
+      "path": "data/augmented/ac97_ctrl_deep.v",
+      "gate_count": 11589,
+      "depth": 17,
+      "composite": 67.96373434606546
+    },
+    {
+      "filename": "ac97_ctrl_feedback.v",
+      "path": "data/augmented/ac97_ctrl_feedback.v",
+      "gate_count": 12849,
+      "depth": 20,
+      "composite": 80.99288705138599
+    },
+    {
+      "filename": "ac97_ctrl_heavy.v",
+      "path": "data/augmented/ac97_ctrl_heavy.v",
+      "gate_count": 12035,
+      "depth": 22,
+      "composite": 88.37197696738565
+    },
+    {
+      "filename": "ac97_ctrl_original.v",
+      "path": "data/augmented/ac97_ctrl_original.v",
+      "gate_count": 11289,
+      "depth": 16,
+      "composite": 63.75315704994612
+    },
+    {
+      "filename": "ac97_ctrl_seq.v",
+      "path": "data/augmented/ac97_ctrl_seq.v",
+      "gate_count": 11939,
+      "depth": 16,
+      "composite": 63.98330304752778
+    },
+    {
+      "filename": "ac97_ctrl_xor.v",
+      "path": "data/augmented/ac97_ctrl_xor.v",
+      "gate_count": 11389,
+      "depth": 16,
+      "composite": 63.824786503011524
+    },
+    {
+      "filename": "aes_core_deep.v",
+      "path": "data/augmented/aes_core_deep.v",
+      "gate_count": 21080,
+      "depth": 34,
+      "composite": 146.64637627073657
+    },
+    {
+      "filename": "aes_core_feedback.v",
+      "path": "data/augmented/aes_core_feedback.v",
+      "gate_count": 24020,
+      "depth": 29,
+      "composite": 126.76364741020387
+    },
+    {
+      "filename": "aes_core_heavy.v",
+      "path": "data/augmented/aes_core_heavy.v",
+      "gate_count": 22331,
+      "depth": 31,
+      "composite": 134.5020288729408
+    },
+    {
+      "filename": "aes_core_original.v",
+      "path": "data/augmented/aes_core_original.v",
+      "gate_count": 20780,
+      "depth": 29,
+      "composite": 124.89565163425365
+    },
+    {
+      "filename": "aes_core_seq.v",
+      "path": "data/augmented/aes_core_seq.v",
+      "gate_count": 22130,
+      "depth": 29,
+      "composite": 125.30832364294189
+    },
+    {
+      "filename": "aes_core_xor.v",
+      "path": "data/augmented/aes_core_xor.v",
+      "gate_count": 20880,
+      "depth": 59,
+      "composite": 254.22418045089898
+    },
+    {
+      "filename": "array_mult_4bit_deep.v",
+      "path": "data/augmented/array_mult_4bit_deep.v",
+      "gate_count": 127,
+      "depth": 19,
+      "composite": 39.97227069816318
+    },
+    {
+      "filename": "array_mult_4bit_feedback.v",
+      "path": "data/augmented/array_mult_4bit_feedback.v",
+      "gate_count": 99,
+      "depth": 19,
+      "composite": 37.91706869735345
+    },
+    {
+      "filename": "array_mult_4bit_heavy.v",
+      "path": "data/augmented/array_mult_4bit_heavy.v",
+      "gate_count": 102,
+      "depth": 20,
+      "composite": 40.17200343523835
+    },
+    {
+      "filename": "array_mult_4bit_original.v",
+      "path": "data/augmented/array_mult_4bit_original.v",
+      "gate_count": 93,
+      "depth": 19,
+      "composite": 37.401176022524766
+    },
+    {
+      "filename": "array_mult_4bit_seq.v",
+      "path": "data/augmented/array_mult_4bit_seq.v",
+      "gate_count": 99,
+      "depth": 19,
+      "composite": 37.6631534277518
+    },
+    {
+      "filename": "array_mult_4bit_xor.v",
+      "path": "data/augmented/array_mult_4bit_xor.v",
+      "gate_count": 98,
+      "depth": 19,
+      "composite": 37.8332954381574
+    },
+    {
+      "filename": "array_mult_8bit_deep.v",
+      "path": "data/augmented/array_mult_8bit_deep.v",
+      "gate_count": 497,
+      "depth": 43,
+      "composite": 115.94332471553328
+    },
+    {
+      "filename": "array_mult_8bit_feedback.v",
+      "path": "data/augmented/array_mult_8bit_feedback.v",
+      "gate_count": 398,
+      "depth": 43,
+      "composite": 111.79497209916858
+    },
+    {
+      "filename": "array_mult_8bit_heavy.v",
+      "path": "data/augmented/array_mult_8bit_heavy.v",
+      "gate_count": 404,
+      "depth": 43,
+      "composite": 112.07439869975602
+    },
+    {
+      "filename": "array_mult_8bit_original.v",
+      "path": "data/augmented/array_mult_8bit_original.v",
+      "gate_count": 377,
+      "depth": 43,
+      "composite": 110.7826780588491
+    },
+    {
+      "filename": "array_mult_8bit_seq.v",
+      "path": "data/augmented/array_mult_8bit_seq.v",
+      "gate_count": 401,
+      "depth": 43,
+      "composite": 111.36783285700544
+    },
+    {
+      "filename": "array_mult_8bit_xor.v",
+      "path": "data/augmented/array_mult_8bit_xor.v",
+      "gate_count": 395,
+      "depth": 43,
+      "composite": 111.65367511193779
+    },
+    {
+      "filename": "b01_deep.v",
+      "path": "data/augmented/b01_deep.v",
+      "gate_count": 120,
+      "depth": 11,
+      "composite": 22.66767624388973
+    },
+    {
+      "filename": "b01_feedback.v",
+      "path": "data/augmented/b01_feedback.v",
+      "gate_count": 92,
+      "depth": 11,
+      "composite": 21.334711778804802
+    },
+    {
+      "filename": "b01_heavy.v",
+      "path": "data/augmented/b01_heavy.v",
+      "gate_count": 95,
+      "depth": 11,
+      "composite": 21.496667603832574
+    },
+    {
+      "filename": "b01_original.v",
+      "path": "data/augmented/b01_original.v",
+      "gate_count": 86,
+      "depth": 11,
+      "composite": 20.993335207665147
+    },
+    {
+      "filename": "b01_seq.v",
+      "path": "data/augmented/b01_seq.v",
+      "gate_count": 90,
+      "depth": 11,
+      "composite": 21.109859016136813
+    },
+    {
+      "filename": "b01_xor.v",
+      "path": "data/augmented/b01_xor.v",
+      "gate_count": 91,
+      "depth": 11,
+      "composite": 21.279482963679243
+    },
+    {
+      "filename": "b02_deep.v",
+      "path": "data/augmented/b02_deep.v",
+      "gate_count": 63,
+      "depth": 10,
+      "composite": 17.708520116421443
+    },
+    {
+      "filename": "b02_feedback.v",
+      "path": "data/augmented/b02_feedback.v",
+      "gate_count": 51,
+      "depth": 10,
+      "composite": 16.720978579357176
+    },
+    {
+      "filename": "b02_heavy.v",
+      "path": "data/augmented/b02_heavy.v",
+      "gate_count": 54,
+      "depth": 10,
+      "composite": 16.989700043360187
+    },
+    {
+      "filename": "b02_original.v",
+      "path": "data/augmented/b02_original.v",
+      "gate_count": 45,
+      "depth": 10,
+      "composite": 16.127838567197355
+    },
+    {
+      "filename": "b02_seq.v",
+      "path": "data/augmented/b02_seq.v",
+      "gate_count": 49,
+      "depth": 10,
+      "composite": 16.334684555795864
+    },
+    {
+      "filename": "b02_xor.v",
+      "path": "data/augmented/b02_xor.v",
+      "gate_count": 50,
+      "depth": 11,
+      "composite": 18.290336148497314
+    },
+    {
+      "filename": "b03_deep.v",
+      "path": "data/augmented/b03_deep.v",
+      "gate_count": 505,
+      "depth": 14,
+      "composite": 37.47371053474813
+    },
+    {
+      "filename": "b03_feedback.v",
+      "path": "data/augmented/b03_feedback.v",
+      "gate_count": 406,
+      "depth": 17,
+      "composite": 43.778193363770235
+    },
+    {
+      "filename": "b03_heavy.v",
+      "path": "data/augmented/b03_heavy.v",
+      "gate_count": 412,
+      "depth": 23,
+      "composite": 59.387457346969306
+    },
+    {
+      "filename": "b03_original.v",
+      "path": "data/augmented/b03_original.v",
+      "gate_count": 385,
+      "depth": 14,
+      "composite": 35.70319694277132
+    },
+    {
+      "filename": "b03_seq.v",
+      "path": "data/augmented/b03_seq.v",
+      "gate_count": 409,
+      "depth": 14,
+      "composite": 35.90532489952925
+    },
+    {
+      "filename": "b03_xor.v",
+      "path": "data/augmented/b03_xor.v",
+      "gate_count": 403,
+      "depth": 29,
+      "composite": 74.57955612245195
+    },
+    {
+      "filename": "b04_deep.v",
+      "path": "data/augmented/b04_deep.v",
+      "gate_count": 1157,
+      "depth": 35,
+      "composite": 106.65462035844628
+    },
+    {
+      "filename": "b04_feedback.v",
+      "path": "data/augmented/b04_feedback.v",
+      "gate_count": 985,
+      "depth": 29,
+      "composite": 86.26083908938253
+    },
+    {
+      "filename": "b04_heavy.v",
+      "path": "data/augmented/b04_heavy.v",
+      "gate_count": 918,
+      "depth": 29,
+      "composite": 85.33261907887433
+    },
+    {
+      "filename": "b04_original.v",
+      "path": "data/augmented/b04_original.v",
+      "gate_count": 857,
+      "depth": 29,
+      "composite": 84.42357065345932
+    },
+    {
+      "filename": "b04_seq.v",
+      "path": "data/augmented/b04_seq.v",
+      "gate_count": 911,
+      "depth": 29,
+      "composite": 84.83405065348984
+    },
+    {
+      "filename": "b04_xor.v",
+      "path": "data/augmented/b04_xor.v",
+      "gate_count": 897,
+      "depth": 32,
+      "composite": 93.82291567130153
+    },
+    {
+      "filename": "b05_deep.v",
+      "path": "data/augmented/b05_deep.v",
+      "gate_count": 1332,
+      "depth": 32,
+      "composite": 99.63549283433689
+    },
+    {
+      "filename": "b05_feedback.v",
+      "path": "data/augmented/b05_feedback.v",
+      "gate_count": 1184,
+      "depth": 30,
+      "composite": 91.83225970889374
+    },
+    {
+      "filename": "b05_heavy.v",
+      "path": "data/augmented/b05_heavy.v",
+      "gate_count": 1106,
+      "depth": 41,
+      "composite": 124.254588600604
+    },
+    {
+      "filename": "b05_original.v",
+      "path": "data/augmented/b05_original.v",
+      "gate_count": 1032,
+      "depth": 30,
+      "composite": 89.98696464677947
+    },
+    {
+      "filename": "b05_seq.v",
+      "path": "data/augmented/b05_seq.v",
+      "gate_count": 1098,
+      "depth": 30,
+      "composite": 90.41039091873577
+    },
+    {
+      "filename": "b05_xor.v",
+      "path": "data/augmented/b05_xor.v",
+      "gate_count": 1081,
+      "depth": 30,
+      "composite": 90.61083847943124
+    },
+    {
+      "filename": "b06_deep.v",
+      "path": "data/augmented/b06_deep.v",
+      "gate_count": 120,
+      "depth": 11,
+      "composite": 22.498552766653233
+    },
+    {
+      "filename": "b06_feedback.v",
+      "path": "data/augmented/b06_feedback.v",
+      "gate_count": 92,
+      "depth": 11,
+      "composite": 21.109859016136813
+    },
+    {
+      "filename": "b06_heavy.v",
+      "path": "data/augmented/b06_heavy.v",
+      "gate_count": 95,
+      "depth": 12,
+      "composite": 23.213981414922813
+    },
+    {
+      "filename": "b06_original.v",
+      "path": "data/augmented/b06_original.v",
+      "gate_count": 86,
+      "depth": 11,
+      "composite": 20.7513979768973
+    },
+    {
+      "filename": "b06_seq.v",
+      "path": "data/augmented/b06_seq.v",
+      "gate_count": 90,
+      "depth": 11,
+      "composite": 20.873898004194857
+    },
+    {
+      "filename": "b06_xor.v",
+      "path": "data/augmented/b06_xor.v",
+      "gate_count": 91,
+      "depth": 13,
+      "composite": 24.87958008098832
+    },
+    {
+      "filename": "b07_deep.v",
+      "path": "data/augmented/b07_deep.v",
+      "gate_count": 977,
+      "depth": 18,
+      "composite": 53.41586357193951
+    },
+    {
+      "filename": "b07_feedback.v",
+      "path": "data/augmented/b07_feedback.v",
+      "gate_count": 815,
+      "depth": 16,
+      "composite": 46.147660314121666
+    },
+    {
+      "filename": "b07_heavy.v",
+      "path": "data/augmented/b07_heavy.v",
+      "gate_count": 787,
+      "depth": 17,
+      "composite": 48.75695815099171
+    },
+    {
+      "filename": "b07_original.v",
+      "path": "data/augmented/b07_original.v",
+      "gate_count": 737,
+      "depth": 16,
+      "composite": 45.40141501176818
+    },
+    {
+      "filename": "b07_seq.v",
+      "path": "data/augmented/b07_seq.v",
+      "gate_count": 781,
+      "depth": 16,
+      "composite": 45.62013357950521
+    },
+    {
+      "filename": "b07_xor.v",
+      "path": "data/augmented/b07_xor.v",
+      "gate_count": 771,
+      "depth": 20,
+      "composite": 57.17074395139278
+    },
+    {
+      "filename": "b08_deep.v",
+      "path": "data/augmented/b08_deep.v",
+      "gate_count": 283,
+      "depth": 15,
+      "composite": 36.373224549466
+    },
+    {
+      "filename": "b08_feedback.v",
+      "path": "data/augmented/b08_feedback.v",
+      "gate_count": 231,
+      "depth": 14,
+      "composite": 32.62579282688867
+    },
+    {
+      "filename": "b08_heavy.v",
+      "path": "data/augmented/b08_heavy.v",
+      "gate_count": 237,
+      "depth": 16,
+      "composite": 37.4787628931553
+    },
+    {
+      "filename": "b08_original.v",
+      "path": "data/augmented/b08_original.v",
+      "gate_count": 223,
+      "depth": 14,
+      "composite": 32.394141085168144
+    },
+    {
+      "filename": "b08_seq.v",
+      "path": "data/augmented/b08_seq.v",
+      "gate_count": 235,
+      "depth": 14,
+      "composite": 32.56870205300252
+    },
+    {
+      "filename": "b08_xor.v",
+      "path": "data/augmented/b08_xor.v",
+      "gate_count": 233,
+      "depth": 14,
+      "composite": 32.68235251611303
+    },
+    {
+      "filename": "b09_deep.v",
+      "path": "data/augmented/b09_deep.v",
+      "gate_count": 318,
+      "depth": 14,
+      "composite": 34.51535992027786
+    },
+    {
+      "filename": "b09_feedback.v",
+      "path": "data/augmented/b09_feedback.v",
+      "gate_count": 266,
+      "depth": 14,
+      "composite": 33.32295738396248
+    },
+    {
+      "filename": "b09_heavy.v",
+      "path": "data/augmented/b09_heavy.v",
+      "gate_count": 273,
+      "depth": 14,
+      "composite": 33.49775734563532
+    },
+    {
+      "filename": "b09_original.v",
+      "path": "data/augmented/b09_original.v",
+      "gate_count": 258,
+      "depth": 14,
+      "composite": 33.116831788472595
+    },
+    {
+      "filename": "b09_seq.v",
+      "path": "data/augmented/b09_seq.v",
+      "gate_count": 272,
+      "depth": 14,
+      "composite": 33.297570613273926
+    },
+    {
+      "filename": "b09_xor.v",
+      "path": "data/augmented/b09_xor.v",
+      "gate_count": 269,
+      "depth": 14,
+      "composite": 33.39848783037637
+    },
+    {
+      "filename": "b10_deep.v",
+      "path": "data/augmented/b10_deep.v",
+      "gate_count": 401,
+      "depth": 15,
+      "composite": 38.76496836551296
+    },
+    {
+      "filename": "b10_feedback.v",
+      "path": "data/augmented/b10_feedback.v",
+      "gate_count": 329,
+      "depth": 17,
+      "composite": 42.400628098313526
+    },
+    {
+      "filename": "b10_heavy.v",
+      "path": "data/augmented/b10_heavy.v",
+      "gate_count": 334,
+      "depth": 22,
+      "composite": 55.023303768790534
+    },
+    {
+      "filename": "b10_original.v",
+      "path": "data/augmented/b10_original.v",
+      "gate_count": 311,
+      "depth": 14,
+      "composite": 34.5568626257702
+    },
+    {
+      "filename": "b10_seq.v",
+      "path": "data/augmented/b10_seq.v",
+      "gate_count": 331,
+      "depth": 14,
+      "composite": 34.760230170522554
+    },
+    {
+      "filename": "b10_xor.v",
+      "path": "data/augmented/b10_xor.v",
+      "gate_count": 326,
+      "depth": 23,
+      "composite": 57.269045026771195
+    },
+    {
+      "filename": "b11_deep.v",
+      "path": "data/augmented/b11_deep.v",
+      "gate_count": 1075,
+      "depth": 24,
+      "composite": 72.44881196798984
+    },
+    {
+      "filename": "b11_feedback.v",
+      "path": "data/augmented/b11_feedback.v",
+      "gate_count": 910,
+      "depth": 18,
+      "composite": 52.99179975132789
+    },
+    {
+      "filename": "b11_heavy.v",
+      "path": "data/augmented/b11_heavy.v",
+      "gate_count": 861,
+      "depth": 18,
+      "composite": 52.54340566276933
+    },
+    {
+      "filename": "b11_original.v",
+      "path": "data/augmented/b11_original.v",
+      "gate_count": 805,
+      "depth": 18,
+      "composite": 51.997337292292066
+    },
+    {
+      "filename": "b11_seq.v",
+      "path": "data/augmented/b11_seq.v",
+      "gate_count": 855,
+      "depth": 18,
+      "composite": 52.24584202765184
+    },
+    {
+      "filename": "b11_xor.v",
+      "path": "data/augmented/b11_xor.v",
+      "gate_count": 843,
+      "depth": 46,
+      "composite": 133.83957734509409
+    },
+    {
+      "filename": "b12_deep.v",
+      "path": "data/augmented/b12_deep.v",
+      "gate_count": 2314,
+      "depth": 26,
+      "composite": 86.88244073022942
+    },
+    {
+      "filename": "b12_feedback.v",
+      "path": "data/augmented/b12_feedback.v",
+      "gate_count": 2318,
+      "depth": 27,
+      "composite": 90.24541238219956
+    },
+    {
+      "filename": "b12_heavy.v",
+      "path": "data/augmented/b12_heavy.v",
+      "gate_count": 2158,
+      "depth": 19,
+      "composite": 62.882973181092076
+    },
+    {
+      "filename": "b12_original.v",
+      "path": "data/augmented/b12_original.v",
+      "gate_count": 2014,
+      "depth": 19,
+      "composite": 62.2789283270389
+    },
+    {
+      "filename": "b12_seq.v",
+      "path": "data/augmented/b12_seq.v",
+      "gate_count": 2140,
+      "depth": 19,
+      "composite": 62.54865428389999
+    },
+    {
+      "filename": "b12_xor.v",
+      "path": "data/augmented/b12_xor.v",
+      "gate_count": 2109,
+      "depth": 21,
+      "composite": 69.2804964605756
+    },
+    {
+      "filename": "b13_deep.v",
+      "path": "data/augmented/b13_deep.v",
+      "gate_count": 521,
+      "depth": 13,
+      "composite": 34.71319608996362
+    },
+    {
+      "filename": "b13_feedback.v",
+      "path": "data/augmented/b13_feedback.v",
+      "gate_count": 422,
+      "depth": 13,
+      "composite": 33.37134276006778
+    },
+    {
+      "filename": "b13_heavy.v",
+      "path": "data/augmented/b13_heavy.v",
+      "gate_count": 428,
+      "depth": 16,
+      "composite": 41.1845002836435
+    },
+    {
+      "filename": "b13_original.v",
+      "path": "data/augmented/b13_original.v",
+      "gate_count": 401,
+      "depth": 13,
+      "composite": 33.04053017130555
+    },
+    {
+      "filename": "b13_seq.v",
+      "path": "data/augmented/b13_seq.v",
+      "gate_count": 425,
+      "depth": 13,
+      "composite": 33.23193250997473
+    },
+    {
+      "filename": "b13_xor.v",
+      "path": "data/augmented/b13_xor.v",
+      "gate_count": 419,
+      "depth": 21,
+      "composite": 53.83310279328262
+    },
+    {
+      "filename": "b14_1_deep.v",
+      "path": "data/augmented/b14_1_deep.v",
+      "gate_count": 8995,
+      "depth": 54,
+      "composite": 212.9219780417662
+    },
+    {
+      "filename": "b14_1_feedback.v",
+      "path": "data/augmented/b14_1_feedback.v",
+      "gate_count": 10047,
+      "depth": 48,
+      "composite": 191.62559663018808
+    },
+    {
+      "filename": "b14_1_heavy.v",
+      "path": "data/augmented/b14_1_heavy.v",
+      "gate_count": 9343,
+      "depth": 48,
+      "composite": 190.07518021756528
+    },
+    {
+      "filename": "b14_1_original.v",
+      "path": "data/augmented/b14_1_original.v",
+      "gate_count": 8695,
+      "depth": 48,
+      "composite": 188.5384036958739
+    },
+    {
+      "filename": "b14_1_seq.v",
+      "path": "data/augmented/b14_1_seq.v",
+      "gate_count": 9259,
+      "depth": 48,
+      "composite": 189.22115083148907
+    },
+    {
+      "filename": "b14_1_xor.v",
+      "path": "data/augmented/b14_1_xor.v",
+      "gate_count": 8795,
+      "depth": 48,
+      "composite": 188.7830794523135
+    },
+    {
+      "filename": "b14_deep.v",
+      "path": "data/augmented/b14_deep.v",
+      "gate_count": 8957,
+      "depth": 53,
+      "composite": 208.8790275329664
+    },
+    {
+      "filename": "b14_feedback.v",
+      "path": "data/augmented/b14_feedback.v",
+      "gate_count": 10001,
+      "depth": 53,
+      "composite": 211.4785432236194
+    },
+    {
+      "filename": "b14_heavy.v",
+      "path": "data/augmented/b14_heavy.v",
+      "gate_count": 9302,
+      "depth": 53,
+      "composite": 209.77094377860644
+    },
+    {
+      "filename": "b14_original.v",
+      "path": "data/augmented/b14_original.v",
+      "gate_count": 8657,
+      "depth": 53,
+      "composite": 208.07432168702897
+    },
+    {
+      "filename": "b14_seq.v",
+      "path": "data/augmented/b14_seq.v",
+      "gate_count": 9219,
+      "depth": 53,
+      "composite": 208.82888884380597
+    },
+    {
+      "filename": "b14_xor.v",
+      "path": "data/augmented/b14_xor.v",
+      "gate_count": 8757,
+      "depth": 53,
+      "composite": 208.34569487920174
+    },
+    {
+      "filename": "b15_1_deep.v",
+      "path": "data/augmented/b15_1_deep.v",
+      "gate_count": 12725,
+      "depth": 33,
+      "composite": 134.97152864109276
+    },
+    {
+      "filename": "b15_1_feedback.v",
+      "path": "data/augmented/b15_1_feedback.v",
+      "gate_count": 14345,
+      "depth": 33,
+      "composite": 136.7442124822043
+    },
+    {
+      "filename": "b15_1_heavy.v",
+      "path": "data/augmented/b15_1_heavy.v",
+      "gate_count": 13345,
+      "depth": 33,
+      "composite": 135.67609932840503
+    },
+    {
+      "filename": "b15_1_original.v",
+      "path": "data/augmented/b15_1_original.v",
+      "gate_count": 12425,
+      "depth": 33,
+      "composite": 134.6177575628429
+    },
+    {
+      "filename": "b15_1_seq.v",
+      "path": "data/augmented/b15_1_seq.v",
+      "gate_count": 13225,
+      "depth": 33,
+      "composite": 135.08753799965453
+    },
+    {
+      "filename": "b15_1_xor.v",
+      "path": "data/augmented/b15_1_xor.v",
+      "gate_count": 12525,
+      "depth": 33,
+      "composite": 134.73665419549928
+    },
+    {
+      "filename": "b15_deep.v",
+      "path": "data/augmented/b15_deep.v",
+      "gate_count": 12832,
+      "depth": 32,
+      "composite": 130.99957710599486
+    },
+    {
+      "filename": "b15_feedback.v",
+      "path": "data/augmented/b15_feedback.v",
+      "gate_count": 14468,
+      "depth": 32,
+      "composite": 132.7206957932031
+    },
+    {
+      "filename": "b15_heavy.v",
+      "path": "data/augmented/b15_heavy.v",
+      "gate_count": 13461,
+      "depth": 32,
+      "composite": 131.6867512545334
+    },
+    {
+      "filename": "b15_original.v",
+      "path": "data/augmented/b15_original.v",
+      "gate_count": 12532,
+      "depth": 32,
+      "composite": 130.65946493423152
+    },
+    {
+      "filename": "b15_seq.v",
+      "path": "data/augmented/b15_seq.v",
+      "gate_count": 13340,
+      "depth": 32,
+      "composite": 131.1155662260958
+    },
+    {
+      "filename": "b15_xor.v",
+      "path": "data/augmented/b15_xor.v",
+      "gate_count": 12632,
+      "depth": 32,
+      "composite": 130.773762999508
+    },
+    {
+      "filename": "b17_1_deep.v",
+      "path": "data/augmented/b17_1_deep.v",
+      "gate_count": 37564,
+      "depth": 42,
+      "composite": 191.49395530369875
+    },
+    {
+      "filename": "b17_1_feedback.v",
+      "path": "data/augmented/b17_1_feedback.v",
+      "gate_count": 43024,
+      "depth": 35,
+      "composite": 161.71059305750552
+    },
+    {
+      "filename": "b17_1_heavy.v",
+      "path": "data/augmented/b17_1_heavy.v",
+      "gate_count": 40024,
+      "depth": 35,
+      "composite": 160.57616684152242
+    },
+    {
+      "filename": "b17_1_original.v",
+      "path": "data/augmented/b17_1_original.v",
+      "gate_count": 37264,
+      "depth": 35,
+      "composite": 159.45199801144312
+    },
+    {
+      "filename": "b17_1_seq.v",
+      "path": "data/augmented/b17_1_seq.v",
+      "gate_count": 39664,
+      "depth": 35,
+      "composite": 159.9510133972329
+    },
+    {
+      "filename": "b17_1_xor.v",
+      "path": "data/augmented/b17_1_xor.v",
+      "gate_count": 37364,
+      "depth": 35,
+      "composite": 159.49421407720223
+    },
+    {
+      "filename": "b17_deep.v",
+      "path": "data/augmented/b17_deep.v",
+      "gate_count": 37305,
+      "depth": 34,
+      "composite": 154.91100332535535
+    },
+    {
+      "filename": "b17_feedback.v",
+      "path": "data/augmented/b17_feedback.v",
+      "gate_count": 42717,
+      "depth": 34,
+      "composite": 156.9794381970571
+    },
+    {
+      "filename": "b17_heavy.v",
+      "path": "data/augmented/b17_heavy.v",
+      "gate_count": 39743,
+      "depth": 34,
+      "composite": 155.87879307178784
+    },
+    {
+      "filename": "b17_original.v",
+      "path": "data/augmented/b17_original.v",
+      "gate_count": 37005,
+      "depth": 34,
+      "composite": 154.78741006667462
+    },
+    {
+      "filename": "b17_seq.v",
+      "path": "data/augmented/b17_seq.v",
+      "gate_count": 39387,
+      "depth": 34,
+      "composite": 155.27209211195952
+    },
+    {
+      "filename": "b17_xor.v",
+      "path": "data/augmented/b17_xor.v",
+      "gate_count": 37105,
+      "depth": 34,
+      "composite": 154.82872286958687
+    },
+    {
+      "filename": "b18_1_deep.v",
+      "path": "data/augmented/b18_1_deep.v",
+      "gate_count": 91597,
+      "depth": 50,
+      "composite": 247.362615974709
+    },
+    {
+      "filename": "b18_1_feedback.v",
+      "path": "data/augmented/b18_1_feedback.v",
+      "gate_count": 105449,
+      "depth": 50,
+      "composite": 250.518178466827
+    },
+    {
+      "filename": "b18_1_heavy.v",
+      "path": "data/augmented/b18_1_heavy.v",
+      "gate_count": 98077,
+      "depth": 50,
+      "composite": 248.89600681056118
+    },
+    {
+      "filename": "b18_1_original.v",
+      "path": "data/augmented/b18_1_original.v",
+      "gate_count": 91297,
+      "depth": 50,
+      "composite": 247.28893423696783
+    },
+    {
+      "filename": "b18_1_seq.v",
+      "path": "data/augmented/b18_1_seq.v",
+      "gate_count": 97193,
+      "depth": 50,
+      "composite": 248.00236085897728
+    },
+    {
+      "filename": "b18_1_xor.v",
+      "path": "data/augmented/b18_1_xor.v",
+      "gate_count": 91397,
+      "depth": 50,
+      "composite": 247.3135226060815
+    },
+    {
+      "filename": "b18_deep.v",
+      "path": "data/augmented/b18_deep.v",
+      "gate_count": 92043,
+      "depth": 54,
+      "composite": 267.24808035525297
+    },
+    {
+      "filename": "b18_feedback.v",
+      "path": "data/augmented/b18_feedback.v",
+      "gate_count": 105951,
+      "depth": 54,
+      "composite": 270.65583948224395
+    },
+    {
+      "filename": "b18_heavy.v",
+      "path": "data/augmented/b18_heavy.v",
+      "gate_count": 98552,
+      "depth": 54,
+      "composite": 268.9047060720684
+    },
+    {
+      "filename": "b18_original.v",
+      "path": "data/augmented/b18_original.v",
+      "gate_count": 91743,
+      "depth": 54,
+      "composite": 267.1688312473453
+    },
+    {
+      "filename": "b18_seq.v",
+      "path": "data/augmented/b18_seq.v",
+      "gate_count": 97665,
+      "depth": 55,
+      "composite": 272.90138244977567
+    },
+    {
+      "filename": "b18_xor.v",
+      "path": "data/augmented/b18_xor.v",
+      "gate_count": 91843,
+      "depth": 54,
+      "composite": 267.1952773833745
+    },
+    {
+      "filename": "b19_1_deep.v",
+      "path": "data/augmented/b19_1_deep.v",
+      "gate_count": 174075,
+      "depth": 48,
+      "composite": 250.81099855963407
+    },
+    {
+      "filename": "b19_1_feedback.v",
+      "path": "data/augmented/b19_1_feedback.v",
+      "gate_count": 200663,
+      "depth": 48,
+      "composite": 253.87424932690794
+    },
+    {
+      "filename": "b19_1_heavy.v",
+      "path": "data/augmented/b19_1_heavy.v",
+      "gate_count": 186659,
+      "depth": 48,
+      "composite": 252.31702602694963
+    },
+    {
+      "filename": "b19_1_original.v",
+      "path": "data/augmented/b19_1_original.v",
+      "gate_count": 173775,
+      "depth": 48,
+      "composite": 250.7737331593824
+    },
+    {
+      "filename": "b19_1_seq.v",
+      "path": "data/augmented/b19_1_seq.v",
+      "gate_count": 184979,
+      "depth": 48,
+      "composite": 251.45884232875562
+    },
+    {
+      "filename": "b19_1_xor.v",
+      "path": "data/augmented/b19_1_xor.v",
+      "gate_count": 173875,
+      "depth": 48,
+      "composite": 250.7861623628411
+    },
+    {
+      "filename": "b19_deep.v",
+      "path": "data/augmented/b19_deep.v",
+      "gate_count": 173824,
+      "depth": 46,
+      "composite": 240.3213719994431
+    },
+    {
+      "filename": "b19_feedback.v",
+      "path": "data/augmented/b19_feedback.v",
+      "gate_count": 200356,
+      "depth": 46,
+      "composite": 243.2565837809355
+    },
+    {
+      "filename": "b19_heavy.v",
+      "path": "data/augmented/b19_heavy.v",
+      "gate_count": 186381,
+      "depth": 46,
+      "composite": 241.76438759325265
+    },
+    {
+      "filename": "b19_original.v",
+      "path": "data/augmented/b19_original.v",
+      "gate_count": 173524,
+      "depth": 46,
+      "composite": 240.2855891738859
+    },
+    {
+      "filename": "b19_seq.v",
+      "path": "data/augmented/b19_seq.v",
+      "gate_count": 184704,
+      "depth": 46,
+      "composite": 240.94203570792993
+    },
+    {
+      "filename": "b19_xor.v",
+      "path": "data/augmented/b19_xor.v",
+      "gate_count": 173624,
+      "depth": 46,
+      "composite": 240.29752390520898
+    },
+    {
+      "filename": "b20_1_deep.v",
+      "path": "data/augmented/b20_1_deep.v",
+      "gate_count": 19374,
+      "depth": 53,
+      "composite": 226.69992333449184
+    },
+    {
+      "filename": "b20_1_feedback.v",
+      "path": "data/augmented/b20_1_feedback.v",
+      "gate_count": 22050,
+      "depth": 47,
+      "composite": 203.7334962738745
+    },
+    {
+      "filename": "b20_1_heavy.v",
+      "path": "data/augmented/b20_1_heavy.v",
+      "gate_count": 20501,
+      "depth": 47,
+      "composite": 202.21565797178783
+    },
+    {
+      "filename": "b20_1_original.v",
+      "path": "data/augmented/b20_1_original.v",
+      "gate_count": 19074,
+      "depth": 47,
+      "composite": 200.70986259164056
+    },
+    {
+      "filename": "b20_1_seq.v",
+      "path": "data/augmented/b20_1_seq.v",
+      "gate_count": 20316,
+      "depth": 48,
+      "composite": 205.66350157384875
+    },
+    {
+      "filename": "b20_1_xor.v",
+      "path": "data/augmented/b20_1_xor.v",
+      "gate_count": 19174,
+      "depth": 47,
+      "composite": 200.8190813264559
+    },
+    {
+      "filename": "b20_deep.v",
+      "path": "data/augmented/b20_deep.v",
+      "gate_count": 19363,
+      "depth": 61,
+      "composite": 260.8879880945007
+    },
+    {
+      "filename": "b20_feedback.v",
+      "path": "data/augmented/b20_feedback.v",
+      "gate_count": 22039,
+      "depth": 53,
+      "composite": 229.71858819218625
+    },
+    {
+      "filename": "b20_heavy.v",
+      "path": "data/augmented/b20_heavy.v",
+      "gate_count": 20489,
+      "depth": 53,
+      "composite": 228.00402450308823
+    },
+    {
+      "filename": "b20_original.v",
+      "path": "data/augmented/b20_original.v",
+      "gate_count": 19063,
+      "depth": 53,
+      "composite": 226.30521403373734
+    },
+    {
+      "filename": "b20_seq.v",
+      "path": "data/augmented/b20_seq.v",
+      "gate_count": 20303,
+      "depth": 53,
+      "composite": 227.05927928431163
+    },
+    {
+      "filename": "b20_xor.v",
+      "path": "data/augmented/b20_xor.v",
+      "gate_count": 19163,
+      "depth": 56,
+      "composite": 239.24522945960143
+    },
+    {
+      "filename": "b21_1_deep.v",
+      "path": "data/augmented/b21_1_deep.v",
+      "gate_count": 18794,
+      "depth": 55,
+      "composite": 234.5221024296216
+    },
+    {
+      "filename": "b21_1_feedback.v",
+      "path": "data/augmented/b21_1_feedback.v",
+      "gate_count": 21382,
+      "depth": 50,
+      "composite": 216.06438325849317
+    },
+    {
+      "filename": "b21_1_heavy.v",
+      "path": "data/augmented/b21_1_heavy.v",
+      "gate_count": 19878,
+      "depth": 50,
+      "composite": 214.4470966926439
+    },
+    {
+      "filename": "b21_1_original.v",
+      "path": "data/augmented/b21_1_original.v",
+      "gate_count": 18494,
+      "depth": 50,
+      "composite": 212.8443022279063
+    },
+    {
+      "filename": "b21_1_seq.v",
+      "path": "data/augmented/b21_1_seq.v",
+      "gate_count": 19698,
+      "depth": 50,
+      "composite": 213.55605278520665
+    },
+    {
+      "filename": "b21_1_xor.v",
+      "path": "data/augmented/b21_1_xor.v",
+      "gate_count": 18594,
+      "depth": 50,
+      "composite": 212.9641608094982
+    },
+    {
+      "filename": "b21_deep.v",
+      "path": "data/augmented/b21_deep.v",
+      "gate_count": 18972,
+      "depth": 49,
+      "composite": 209.1213013260526
+    },
+    {
+      "filename": "b21_feedback.v",
+      "path": "data/augmented/b21_feedback.v",
+      "gate_count": 21584,
+      "depth": 49,
+      "composite": 211.9281307846794
+    },
+    {
+      "filename": "b21_heavy.v",
+      "path": "data/augmented/b21_heavy.v",
+      "gate_count": 20067,
+      "depth": 49,
+      "composite": 210.3433357509526
+    },
+    {
+      "filename": "b21_original.v",
+      "path": "data/augmented/b21_original.v",
+      "gate_count": 18672,
+      "depth": 49,
+      "composite": 208.77387693093635
+    },
+    {
+      "filename": "b21_seq.v",
+      "path": "data/augmented/b21_seq.v",
+      "gate_count": 19886,
+      "depth": 49,
+      "composite": 209.47105581378395
+    },
+    {
+      "filename": "b21_xor.v",
+      "path": "data/augmented/b21_xor.v",
+      "gate_count": 18772,
+      "depth": 49,
+      "composite": 208.8903164292207
+    },
+    {
+      "filename": "b22_1_deep.v",
+      "path": "data/augmented/b22_1_deep.v",
+      "gate_count": 28345,
+      "depth": 57,
+      "composite": 253.24189282294137
+    },
+    {
+      "filename": "b22_1_feedback.v",
+      "path": "data/augmented/b22_1_feedback.v",
+      "gate_count": 32429,
+      "depth": 54,
+      "composite": 243.13622627942735
+    },
+    {
+      "filename": "b22_1_heavy.v",
+      "path": "data/augmented/b22_1_heavy.v",
+      "gate_count": 30147,
+      "depth": 54,
+      "composite": 241.39025493941986
+    },
+    {
+      "filename": "b22_1_original.v",
+      "path": "data/augmented/b22_1_original.v",
+      "gate_count": 28045,
+      "depth": 54,
+      "composite": 239.65820803774793
+    },
+    {
+      "filename": "b22_1_seq.v",
+      "path": "data/augmented/b22_1_seq.v",
+      "gate_count": 29873,
+      "depth": 54,
+      "composite": 240.42710898937423
+    },
+    {
+      "filename": "b22_1_xor.v",
+      "path": "data/augmented/b22_1_xor.v",
+      "gate_count": 28145,
+      "depth": 54,
+      "composite": 239.743571587109
+    },
+    {
+      "filename": "b22_deep.v",
+      "path": "data/augmented/b22_deep.v",
+      "gate_count": 28562,
+      "depth": 54,
+      "composite": 240.07271164776296
+    },
+    {
+      "filename": "b22_feedback.v",
+      "path": "data/augmented/b22_feedback.v",
+      "gate_count": 32678,
+      "depth": 54,
+      "composite": 243.29861027109715
+    },
+    {
+      "filename": "b22_heavy.v",
+      "path": "data/augmented/b22_heavy.v",
+      "gate_count": 30378,
+      "depth": 54,
+      "composite": 241.55094738493156
+    },
+    {
+      "filename": "b22_original.v",
+      "path": "data/augmented/b22_original.v",
+      "gate_count": 28262,
+      "depth": 54,
+      "composite": 239.8192846946785
+    },
+    {
+      "filename": "b22_seq.v",
+      "path": "data/augmented/b22_seq.v",
+      "gate_count": 30102,
+      "depth": 54,
+      "composite": 240.5879396288269
+    },
+    {
+      "filename": "b22_xor.v",
+      "path": "data/augmented/b22_xor.v",
+      "gate_count": 28362,
+      "depth": 54,
+      "composite": 239.90406499821162
+    },
+    {
+      "filename": "barrel_shift_16bit_deep.v",
+      "path": "data/augmented/barrel_shift_16bit_deep.v",
+      "gate_count": 362,
+      "depth": 12,
+      "composite": 30.70450284639799
+    },
+    {
+      "filename": "barrel_shift_16bit_feedback.v",
+      "path": "data/augmented/barrel_shift_16bit_feedback.v",
+      "gate_count": 282,
+      "depth": 10,
+      "composite": 24.50249108319361
+    },
+    {
+      "filename": "barrel_shift_16bit_heavy.v",
+      "path": "data/augmented/barrel_shift_16bit_heavy.v",
+      "gate_count": 291,
+      "depth": 17,
+      "composite": 41.88618081276042
+    },
+    {
+      "filename": "barrel_shift_16bit_original.v",
+      "path": "data/augmented/barrel_shift_16bit_original.v",
+      "gate_count": 272,
+      "depth": 10,
+      "composite": 24.345689040341988
+    },
+    {
+      "filename": "barrel_shift_16bit_seq.v",
+      "path": "data/augmented/barrel_shift_16bit_seq.v",
+      "gate_count": 290,
+      "depth": 10,
+      "composite": 24.487063199050798
+    },
+    {
+      "filename": "barrel_shift_16bit_xor.v",
+      "path": "data/augmented/barrel_shift_16bit_xor.v",
+      "gate_count": 285,
+      "depth": 19,
+      "composite": 46.6420523401617
+    },
+    {
+      "filename": "barrel_shift_32bit_deep.v",
+      "path": "data/augmented/barrel_shift_32bit_deep.v",
+      "gate_count": 912,
+      "depth": 19,
+      "composite": 56.2399019282399
+    },
+    {
+      "filename": "barrel_shift_32bit_feedback.v",
+      "path": "data/augmented/barrel_shift_32bit_feedback.v",
+      "gate_count": 750,
+      "depth": 12,
+      "composite": 34.5007351607004
+    },
+    {
+      "filename": "barrel_shift_32bit_heavy.v",
+      "path": "data/augmented/barrel_shift_32bit_heavy.v",
+      "gate_count": 722,
+      "depth": 28,
+      "composite": 80.03904153194989
+    },
+    {
+      "filename": "barrel_shift_32bit_original.v",
+      "path": "data/augmented/barrel_shift_32bit_original.v",
+      "gate_count": 672,
+      "depth": 12,
+      "composite": 33.9284312766459
+    },
+    {
+      "filename": "barrel_shift_32bit_seq.v",
+      "path": "data/augmented/barrel_shift_32bit_seq.v",
+      "gate_count": 716,
+      "depth": 13,
+      "composite": 36.937673115913114
+    },
+    {
+      "filename": "barrel_shift_32bit_xor.v",
+      "path": "data/augmented/barrel_shift_32bit_xor.v",
+      "gate_count": 705,
+      "depth": 43,
+      "composite": 122.47213203063015
+    },
+    {
+      "filename": "barrel_shift_8bit_deep.v",
+      "path": "data/augmented/barrel_shift_8bit_deep.v",
+      "gate_count": 142,
+      "depth": 8,
+      "composite": 17.21830675506445
+    },
+    {
+      "filename": "barrel_shift_8bit_feedback.v",
+      "path": "data/augmented/barrel_shift_8bit_feedback.v",
+      "gate_count": 110,
+      "depth": 8,
+      "composite": 16.3311414812658
+    },
+    {
+      "filename": "barrel_shift_8bit_heavy.v",
+      "path": "data/augmented/barrel_shift_8bit_heavy.v",
+      "gate_count": 113,
+      "depth": 10,
+      "composite": 20.530784434834196
+    },
+    {
+      "filename": "barrel_shift_8bit_original.v",
+      "path": "data/augmented/barrel_shift_8bit_original.v",
+      "gate_count": 104,
+      "depth": 8,
+      "composite": 16.136266714390242
+    },
+    {
+      "filename": "barrel_shift_8bit_seq.v",
+      "path": "data/augmented/barrel_shift_8bit_seq.v",
+      "gate_count": 110,
+      "depth": 8,
+      "composite": 16.235070221481678
+    },
+    {
+      "filename": "barrel_shift_8bit_xor.v",
+      "path": "data/augmented/barrel_shift_8bit_xor.v",
+      "gate_count": 109,
+      "depth": 11,
+      "composite": 22.411691477346864
+    },
+    {
+      "filename": "cla_adder_16bit_deep.v",
+      "path": "data/augmented/cla_adder_16bit_deep.v",
+      "gate_count": 217,
+      "depth": 15,
+      "composite": 35.046896007727945
+    },
+    {
+      "filename": "cla_adder_16bit_feedback.v",
+      "path": "data/augmented/cla_adder_16bit_feedback.v",
+      "gate_count": 167,
+      "depth": 15,
+      "composite": 33.34074706721375
+    },
+    {
+      "filename": "cla_adder_16bit_heavy.v",
+      "path": "data/augmented/cla_adder_16bit_heavy.v",
+      "gate_count": 172,
+      "depth": 15,
+      "composite": 33.53292670361323
+    },
+    {
+      "filename": "cla_adder_16bit_original.v",
+      "path": "data/augmented/cla_adder_16bit_original.v",
+      "gate_count": 161,
+      "depth": 15,
+      "composite": 33.10238814047774
+    },
+    {
+      "filename": "cla_adder_16bit_seq.v",
+      "path": "data/augmented/cla_adder_16bit_seq.v",
+      "gate_count": 171,
+      "depth": 15,
+      "composite": 33.30162132060082
+    },
+    {
+      "filename": "cla_adder_16bit_xor.v",
+      "path": "data/augmented/cla_adder_16bit_xor.v",
+      "gate_count": 169,
+      "depth": 19,
+      "composite": 42.3298473876598
+    },
+    {
+      "filename": "cla_adder_32bit_deep.v",
+      "path": "data/augmented/cla_adder_32bit_deep.v",
+      "gate_count": 441,
+      "depth": 25,
+      "composite": 66.11096473669596
+    },
+    {
+      "filename": "cla_adder_32bit_feedback.v",
+      "path": "data/augmented/cla_adder_32bit_feedback.v",
+      "gate_count": 339,
+      "depth": 23,
+      "composite": 58.19459305867089
+    },
+    {
+      "filename": "cla_adder_32bit_heavy.v",
+      "path": "data/augmented/cla_adder_32bit_heavy.v",
+      "gate_count": 344,
+      "depth": 30,
+      "composite": 76.0967532771459
+    },
+    {
+      "filename": "cla_adder_32bit_original.v",
+      "path": "data/augmented/cla_adder_32bit_original.v",
+      "gate_count": 321,
+      "depth": 23,
+      "composite": 57.649615745312055
+    },
+    {
+      "filename": "cla_adder_32bit_seq.v",
+      "path": "data/augmented/cla_adder_32bit_seq.v",
+      "gate_count": 341,
+      "depth": 24,
+      "composite": 60.47587185061725
+    },
+    {
+      "filename": "cla_adder_32bit_xor.v",
+      "path": "data/augmented/cla_adder_32bit_xor.v",
+      "gate_count": 337,
+      "depth": 33,
+      "composite": 83.41178672875417
+    },
+    {
+      "filename": "cla_adder_8bit_deep.v",
+      "path": "data/augmented/cla_adder_8bit_deep.v",
+      "gate_count": 109,
+      "depth": 12,
+      "composite": 24.449117975287486
+    },
+    {
+      "filename": "cla_adder_8bit_feedback.v",
+      "path": "data/augmented/cla_adder_8bit_feedback.v",
+      "gate_count": 87,
+      "depth": 11,
+      "composite": 21.334711778804802
+    },
+    {
+      "filename": "cla_adder_8bit_heavy.v",
+      "path": "data/augmented/cla_adder_8bit_heavy.v",
+      "gate_count": 90,
+      "depth": 11,
+      "composite": 21.496667603832574
+    },
+    {
+      "filename": "cla_adder_8bit_original.v",
+      "path": "data/augmented/cla_adder_8bit_original.v",
+      "gate_count": 81,
+      "depth": 11,
+      "composite": 20.993335207665147
+    },
+    {
+      "filename": "cla_adder_8bit_seq.v",
+      "path": "data/augmented/cla_adder_8bit_seq.v",
+      "gate_count": 85,
+      "depth": 11,
+      "composite": 21.109859016136813
+    },
+    {
+      "filename": "cla_adder_8bit_xor.v",
+      "path": "data/augmented/cla_adder_8bit_xor.v",
+      "gate_count": 86,
+      "depth": 13,
+      "composite": 25.14847986616638
+    },
+    {
+      "filename": "crc16_ibm_deep.v",
+      "path": "data/augmented/crc16_ibm_deep.v",
+      "gate_count": 60,
+      "depth": 5,
+      "composite": 8.217263382430938
+    },
+    {
+      "filename": "crc16_ibm_feedback.v",
+      "path": "data/augmented/crc16_ibm_feedback.v",
+      "gate_count": 54,
+      "depth": 7,
+      "composite": 11.05848517631767
+    },
+    {
+      "filename": "crc16_ibm_heavy.v",
+      "path": "data/augmented/crc16_ibm_heavy.v",
+      "gate_count": 57,
+      "depth": 7,
+      "composite": 11.289486997038148
+    },
+    {
+      "filename": "crc16_ibm_original.v",
+      "path": "data/augmented/crc16_ibm_original.v",
+      "gate_count": 48,
+      "depth": 5,
+      "composite": 7.5257498915995305
+    },
+    {
+      "filename": "crc16_ibm_seq.v",
+      "path": "data/augmented/crc16_ibm_seq.v",
+      "gate_count": 52,
+      "depth": 5,
+      "composite": 7.657394585211276
+    },
+    {
+      "filename": "crc16_ibm_xor.v",
+      "path": "data/augmented/crc16_ibm_xor.v",
+      "gate_count": 53,
+      "depth": 5,
+      "composite": 7.841008620334975
+    },
+    {
+      "filename": "crc32_ieee_deep.v",
+      "path": "data/augmented/crc32_ieee_deep.v",
+      "gate_count": 120,
+      "depth": 5,
+      "composite": 9.722413360750844
+    },
+    {
+      "filename": "crc32_ieee_feedback.v",
+      "path": "data/augmented/crc32_ieee_feedback.v",
+      "gate_count": 102,
+      "depth": 5,
+      "composite": 9.225490200071285
+    },
+    {
+      "filename": "crc32_ieee_heavy.v",
+      "path": "data/augmented/crc32_ieee_heavy.v",
+      "gate_count": 105,
+      "depth": 6,
+      "composite": 11.179937160722735
+    },
+    {
+      "filename": "crc32_ieee_original.v",
+      "path": "data/augmented/crc32_ieee_original.v",
+      "gate_count": 96,
+      "depth": 5,
+      "composite": 9.030899869919436
+    },
+    {
+      "filename": "crc32_ieee_seq.v",
+      "path": "data/augmented/crc32_ieee_seq.v",
+      "gate_count": 102,
+      "depth": 5,
+      "composite": 9.130374013504133
+    },
+    {
+      "filename": "crc32_ieee_xor.v",
+      "path": "data/augmented/crc32_ieee_xor.v",
+      "gate_count": 101,
+      "depth": 7,
+      "composite": 12.871943635160786
+    },
+    {
+      "filename": "crc8_ccitt_deep.v",
+      "path": "data/augmented/crc8_ccitt_deep.v",
+      "gate_count": 30,
+      "depth": 4,
+      "composite": 5.369690723288825
+    },
+    {
+      "filename": "crc8_ccitt_feedback.v",
+      "path": "data/augmented/crc8_ccitt_feedback.v",
+      "gate_count": 30,
+      "depth": 5,
+      "composite": 6.712113404111031
+    },
+    {
+      "filename": "crc8_ccitt_heavy.v",
+      "path": "data/augmented/crc8_ccitt_heavy.v",
+      "gate_count": 33,
+      "depth": 4,
+      "composite": 5.591760034688151
+    },
+    {
+      "filename": "crc8_ccitt_original.v",
+      "path": "data/augmented/crc8_ccitt_original.v",
+      "gate_count": 24,
+      "depth": 4,
+      "composite": 4.816479930623699
+    },
+    {
+      "filename": "crc8_ccitt_seq.v",
+      "path": "data/augmented/crc8_ccitt_seq.v",
+      "gate_count": 28,
+      "depth": 4,
+      "composite": 5.021090020413224
+    },
+    {
+      "filename": "crc8_ccitt_xor.v",
+      "path": "data/augmented/crc8_ccitt_xor.v",
+      "gate_count": 29,
+      "depth": 5,
+      "composite": 6.611096473669597
+    },
+    {
+      "filename": "ctrl_original.v",
+      "path": "data/augmented/ctrl_original.v",
+      "gate_count": 1,
+      "depth": 0,
+      "composite": 0.0
+    },
+    {
+      "filename": "des_area_deep.v",
+      "path": "data/augmented/des_area_deep.v",
+      "gate_count": 5177,
+      "depth": 40,
+      "composite": 148.1419719295292
+    },
+    {
+      "filename": "des_area_feedback.v",
+      "path": "data/augmented/des_area_feedback.v",
+      "gate_count": 5637,
+      "depth": 41,
+      "composite": 153.39690769165003
+    },
+    {
+      "filename": "des_area_heavy.v",
+      "path": "data/augmented/des_area_heavy.v",
+      "gate_count": 5240,
+      "depth": 136,
+      "composite": 504.41455286969983
+    },
+    {
+      "filename": "des_area_original.v",
+      "path": "data/augmented/des_area_original.v",
+      "gate_count": 4877,
+      "depth": 36,
+      "composite": 132.3708413146113
+    },
+    {
+      "filename": "des_area_seq.v",
+      "path": "data/augmented/des_area_seq.v",
+      "gate_count": 5193,
+      "depth": 36,
+      "composite": 132.88211762873775
+    },
+    {
+      "filename": "des_area_xor.v",
+      "path": "data/augmented/des_area_xor.v",
+      "gate_count": 4977,
+      "depth": 97,
+      "composite": 357.5429982575827
+    },
+    {
+      "filename": "des_perf_deep.v",
+      "path": "data/augmented/des_perf_deep.v",
+      "gate_count": 98215,
+      "depth": 35,
+      "composite": 173.3702566161229
+    },
+    {
+      "filename": "des_perf_feedback.v",
+      "path": "data/augmented/des_perf_feedback.v",
+      "gate_count": 112235,
+      "depth": 35,
+      "composite": 175.57466662785993
+    },
+    {
+      "filename": "des_perf_heavy.v",
+      "path": "data/augmented/des_perf_heavy.v",
+      "gate_count": 104778,
+      "depth": 72,
+      "composite": 358.8522489367941
+    },
+    {
+      "filename": "des_perf_original.v",
+      "path": "data/augmented/des_perf_original.v",
+      "gate_count": 97915,
+      "depth": 35,
+      "composite": 173.31940978548388
+    },
+    {
+      "filename": "des_perf_seq.v",
+      "path": "data/augmented/des_perf_seq.v",
+      "gate_count": 103883,
+      "depth": 35,
+      "composite": 173.8177539591018
+    },
+    {
+      "filename": "des_perf_xor.v",
+      "path": "data/augmented/des_perf_xor.v",
+      "gate_count": 98015,
+      "depth": 35,
+      "composite": 173.33637763479123
+    },
+    {
+      "filename": "ethernet_deep.v",
+      "path": "data/augmented/ethernet_deep.v",
+      "gate_count": 45765,
+      "depth": 29,
+      "composite": 132.31028811219772
+    },
+    {
+      "filename": "ethernet_feedback.v",
+      "path": "data/augmented/ethernet_feedback.v",
+      "gate_count": 51305,
+      "depth": 29,
+      "composite": 134.08951351375848
+    },
+    {
+      "filename": "ethernet_heavy.v",
+      "path": "data/augmented/ethernet_heavy.v",
+      "gate_count": 48262,
+      "depth": 29,
+      "composite": 133.14345683421033
+    },
+    {
+      "filename": "ethernet_original.v",
+      "path": "data/augmented/ethernet_original.v",
+      "gate_count": 45465,
+      "depth": 29,
+      "composite": 132.20637503427685
+    },
+    {
+      "filename": "ethernet_seq.v",
+      "path": "data/augmented/ethernet_seq.v",
+      "gate_count": 47897,
+      "depth": 29,
+      "composite": 132.62236549836265
+    },
+    {
+      "filename": "ethernet_xor.v",
+      "path": "data/augmented/ethernet_xor.v",
+      "gate_count": 45565,
+      "depth": 29,
+      "composite": 132.24110807516755
+    },
+    {
+      "filename": "fir_16tap_16bit_deep.v",
+      "path": "data/augmented/fir_16tap_16bit_deep.v",
+      "gate_count": 1246,
+      "depth": 26,
+      "composite": 78.06754749871763
+    },
+    {
+      "filename": "fir_16tap_16bit_feedback.v",
+      "path": "data/augmented/fir_16tap_16bit_feedback.v",
+      "gate_count": 1090,
+      "depth": 21,
+      "composite": 61.51779744000015
+    },
+    {
+      "filename": "fir_16tap_16bit_heavy.v",
+      "path": "data/augmented/fir_16tap_16bit_heavy.v",
+      "gate_count": 1016,
+      "depth": 20,
+      "composite": 57.79723442516377
+    },
+    {
+      "filename": "fir_16tap_16bit_original.v",
+      "path": "data/augmented/fir_16tap_16bit_original.v",
+      "gate_count": 946,
+      "depth": 19,
+      "composite": 54.12728931998427
+    },
+    {
+      "filename": "fir_16tap_16bit_seq.v",
+      "path": "data/augmented/fir_16tap_16bit_seq.v",
+      "gate_count": 1008,
+      "depth": 19,
+      "composite": 54.48188226932198
+    },
+    {
+      "filename": "fir_16tap_16bit_xor.v",
+      "path": "data/augmented/fir_16tap_16bit_xor.v",
+      "gate_count": 993,
+      "depth": 21,
+      "composite": 60.41269450021471
+    },
+    {
+      "filename": "fir_16tap_8bit_deep.v",
+      "path": "data/augmented/fir_16tap_8bit_deep.v",
+      "gate_count": 608,
+      "depth": 21,
+      "composite": 56.45681626205692
+    },
+    {
+      "filename": "fir_16tap_8bit_feedback.v",
+      "path": "data/augmented/fir_16tap_8bit_feedback.v",
+      "gate_count": 494,
+      "depth": 19,
+      "composite": 48.88456044180913
+    },
+    {
+      "filename": "fir_16tap_8bit_heavy.v",
+      "path": "data/augmented/fir_16tap_8bit_heavy.v",
+      "gate_count": 491,
+      "depth": 24,
+      "composite": 61.664973830761106
+    },
+    {
+      "filename": "fir_16tap_8bit_original.v",
+      "path": "data/augmented/fir_16tap_8bit_original.v",
+      "gate_count": 458,
+      "depth": 19,
+      "composite": 48.04941730527544
+    },
+    {
+      "filename": "fir_16tap_8bit_seq.v",
+      "path": "data/augmented/fir_16tap_8bit_seq.v",
+      "gate_count": 488,
+      "depth": 19,
+      "composite": 48.40771940236863
+    },
+    {
+      "filename": "fir_16tap_8bit_xor.v",
+      "path": "data/augmented/fir_16tap_8bit_xor.v",
+      "gate_count": 480,
+      "depth": 22,
+      "composite": 56.23865501688032
+    },
+    {
+      "filename": "fir_4tap_8bit_deep.v",
+      "path": "data/augmented/fir_4tap_8bit_deep.v",
+      "gate_count": 134,
+      "depth": 7,
+      "composite": 14.289748796107574
+    },
+    {
+      "filename": "fir_4tap_8bit_feedback.v",
+      "path": "data/augmented/fir_4tap_8bit_feedback.v",
+      "gate_count": 104,
+      "depth": 7,
+      "composite": 13.321629908943605
+    },
+    {
+      "filename": "fir_4tap_8bit_heavy.v",
+      "path": "data/augmented/fir_4tap_8bit_heavy.v",
+      "gate_count": 107,
+      "depth": 7,
+      "composite": 13.433546646632518
+    },
+    {
+      "filename": "fir_4tap_8bit_original.v",
+      "path": "data/augmented/fir_4tap_8bit_original.v",
+      "gate_count": 98,
+      "depth": 7,
+      "composite": 13.084622038116834
+    },
+    {
+      "filename": "fir_4tap_8bit_seq.v",
+      "path": "data/augmented/fir_4tap_8bit_seq.v",
+      "gate_count": 104,
+      "depth": 8,
+      "composite": 15.091925801379855
+    },
+    {
+      "filename": "fir_4tap_8bit_xor.v",
+      "path": "data/augmented/fir_4tap_8bit_xor.v",
+      "gate_count": 103,
+      "depth": 7,
+      "composite": 13.28338963903309
+    },
+    {
+      "filename": "fir_8tap_16bit_deep.v",
+      "path": "data/augmented/fir_8tap_16bit_deep.v",
+      "gate_count": 600,
+      "depth": 14,
+      "composite": 37.637877508037946
+    },
+    {
+      "filename": "fir_8tap_16bit_feedback.v",
+      "path": "data/augmented/fir_8tap_16bit_feedback.v",
+      "gate_count": 486,
+      "depth": 12,
+      "composite": 30.87445922640576
+    },
+    {
+      "filename": "fir_8tap_16bit_heavy.v",
+      "path": "data/augmented/fir_8tap_16bit_heavy.v",
+      "gate_count": 483,
+      "depth": 11,
+      "composite": 28.263113005765508
+    },
+    {
+      "filename": "fir_8tap_16bit_original.v",
+      "path": "data/augmented/fir_8tap_16bit_original.v",
+      "gate_count": 450,
+      "depth": 11,
+      "composite": 27.818083703054203
+    },
+    {
+      "filename": "fir_8tap_16bit_seq.v",
+      "path": "data/augmented/fir_8tap_16bit_seq.v",
+      "gate_count": 480,
+      "depth": 11,
+      "composite": 28.025521759266045
+    },
+    {
+      "filename": "fir_8tap_16bit_xor.v",
+      "path": "data/augmented/fir_8tap_16bit_xor.v",
+      "gate_count": 472,
+      "depth": 24,
+      "composite": 61.35126001841489
+    },
+    {
+      "filename": "fir_8tap_8bit_deep.v",
+      "path": "data/augmented/fir_8tap_8bit_deep.v",
+      "gate_count": 278,
+      "depth": 11,
+      "composite": 25.809882718957027
+    },
+    {
+      "filename": "fir_8tap_8bit_feedback.v",
+      "path": "data/augmented/fir_8tap_8bit_feedback.v",
+      "gate_count": 226,
+      "depth": 11,
+      "composite": 24.534938135161013
+    },
+    {
+      "filename": "fir_8tap_8bit_heavy.v",
+      "path": "data/augmented/fir_8tap_8bit_heavy.v",
+      "gate_count": 233,
+      "depth": 13,
+      "composite": 29.223652462703487
+    },
+    {
+      "filename": "fir_8tap_8bit_original.v",
+      "path": "data/augmented/fir_8tap_8bit_original.v",
+      "gate_count": 218,
+      "depth": 11,
+      "composite": 24.304665159968938
+    },
+    {
+      "filename": "fir_8tap_8bit_seq.v",
+      "path": "data/augmented/fir_8tap_8bit_seq.v",
+      "gate_count": 232,
+      "depth": 11,
+      "composite": 24.50675375075041
+    },
+    {
+      "filename": "fir_8tap_8bit_xor.v",
+      "path": "data/augmented/fir_8tap_8bit_xor.v",
+      "gate_count": 228,
+      "depth": 14,
+      "composite": 31.297398256705684
+    },
+    {
+      "filename": "fsm_128state_deep.v",
+      "path": "data/augmented/fsm_128state_deep.v",
+      "gate_count": 220,
+      "depth": 16,
+      "composite": 37.2540736550198
+    },
+    {
+      "filename": "fsm_128state_feedback.v",
+      "path": "data/augmented/fsm_128state_feedback.v",
+      "gate_count": 166,
+      "depth": 16,
+      "composite": 35.22235398912722
+    },
+    {
+      "filename": "fsm_128state_heavy.v",
+      "path": "data/augmented/fsm_128state_heavy.v",
+      "gate_count": 171,
+      "depth": 18,
+      "composite": 39.86718926485857
+    },
+    {
+      "filename": "fsm_128state_original.v",
+      "path": "data/augmented/fsm_128state_original.v",
+      "gate_count": 160,
+      "depth": 16,
+      "composite": 34.95506289308158
+    },
+    {
+      "filename": "fsm_128state_seq.v",
+      "path": "data/augmented/fsm_128state_seq.v",
+      "gate_count": 170,
+      "depth": 16,
+      "composite": 35.17851339127076
+    },
+    {
+      "filename": "fsm_128state_xor.v",
+      "path": "data/augmented/fsm_128state_xor.v",
+      "gate_count": 168,
+      "depth": 16,
+      "composite": 35.30921401650959
+    },
+    {
+      "filename": "fsm_16state_deep.v",
+      "path": "data/augmented/fsm_16state_deep.v",
+      "gate_count": 76,
+      "depth": 11,
+      "composite": 20.430657460743955
+    },
+    {
+      "filename": "fsm_16state_feedback.v",
+      "path": "data/augmented/fsm_16state_feedback.v",
+      "gate_count": 62,
+      "depth": 11,
+      "composite": 19.39770792919231
+    },
+    {
+      "filename": "fsm_16state_heavy.v",
+      "path": "data/augmented/fsm_16state_heavy.v",
+      "gate_count": 65,
+      "depth": 11,
+      "composite": 19.63862818511844
+    },
+    {
+      "filename": "fsm_16state_original.v",
+      "path": "data/augmented/fsm_16state_original.v",
+      "gate_count": 56,
+      "depth": 11,
+      "composite": 18.87603677998279
+    },
+    {
+      "filename": "fsm_16state_seq.v",
+      "path": "data/augmented/fsm_16state_seq.v",
+      "gate_count": 60,
+      "depth": 11,
+      "composite": 19.056331358052656
+    },
+    {
+      "filename": "fsm_16state_xor.v",
+      "path": "data/augmented/fsm_16state_xor.v",
+      "gate_count": 61,
+      "depth": 12,
+      "composite": 21.070498268069898
+    },
+    {
+      "filename": "fsm_32state_deep.v",
+      "path": "data/augmented/fsm_32state_deep.v",
+      "gate_count": 113,
+      "depth": 12,
+      "composite": 24.401085065843397
+    },
+    {
+      "filename": "fsm_32state_feedback.v",
+      "path": "data/augmented/fsm_32state_feedback.v",
+      "gate_count": 89,
+      "depth": 12,
+      "composite": 23.091351432742577
+    },
+    {
+      "filename": "fsm_32state_heavy.v",
+      "path": "data/augmented/fsm_32state_heavy.v",
+      "gate_count": 92,
+      "depth": 12,
+      "composite": 23.274231031423422
+    },
+    {
+      "filename": "fsm_32state_original.v",
+      "path": "data/augmented/fsm_32state_original.v",
+      "gate_count": 83,
+      "depth": 12,
+      "composite": 22.705135232285762
+    },
+    {
+      "filename": "fsm_32state_seq.v",
+      "path": "data/augmented/fsm_32state_seq.v",
+      "gate_count": 87,
+      "depth": 12,
+      "composite": 22.83707984390332
+    },
+    {
+      "filename": "fsm_32state_xor.v",
+      "path": "data/augmented/fsm_32state_xor.v",
+      "gate_count": 88,
+      "depth": 12,
+      "composite": 23.02893710851289
+    },
+    {
+      "filename": "fsm_4state_deep.v",
+      "path": "data/augmented/fsm_4state_deep.v",
+      "gate_count": 18,
+      "depth": 6,
+      "composite": 7.224719895935548
+    },
+    {
+      "filename": "fsm_4state_feedback.v",
+      "path": "data/augmented/fsm_4state_feedback.v",
+      "gate_count": 20,
+      "depth": 6,
+      "composite": 7.531635030619836
+    },
+    {
+      "filename": "fsm_4state_heavy.v",
+      "path": "data/augmented/fsm_4state_heavy.v",
+      "gate_count": 23,
+      "depth": 8,
+      "composite": 10.577754357871354
+    },
+    {
+      "filename": "fsm_4state_original.v",
+      "path": "data/augmented/fsm_4state_original.v",
+      "gate_count": 14,
+      "depth": 6,
+      "composite": 6.475087476285749
+    },
+    {
+      "filename": "fsm_4state_seq.v",
+      "path": "data/augmented/fsm_4state_seq.v",
+      "gate_count": 18,
+      "depth": 6,
+      "composite": 6.876768214069427
+    },
+    {
+      "filename": "fsm_4state_xor.v",
+      "path": "data/augmented/fsm_4state_xor.v",
+      "gate_count": 19,
+      "depth": 8,
+      "composite": 9.843591371026191
+    },
+    {
+      "filename": "fsm_64state_deep.v",
+      "path": "data/augmented/fsm_64state_deep.v",
+      "gate_count": 173,
+      "depth": 14,
+      "composite": 31.118030596066166
+    },
+    {
+      "filename": "fsm_64state_feedback.v",
+      "path": "data/augmented/fsm_64state_feedback.v",
+      "gate_count": 133,
+      "depth": 14,
+      "composite": 29.453252093383394
+    },
+    {
+      "filename": "fsm_64state_heavy.v",
+      "path": "data/augmented/fsm_64state_heavy.v",
+      "gate_count": 137,
+      "depth": 14,
+      "composite": 29.6417981391807
+    },
+    {
+      "filename": "fsm_64state_original.v",
+      "path": "data/augmented/fsm_64state_original.v",
+      "gate_count": 127,
+      "depth": 14,
+      "composite": 29.158995184430303
+    },
+    {
+      "filename": "fsm_64state_seq.v",
+      "path": "data/augmented/fsm_64state_seq.v",
+      "gate_count": 135,
+      "depth": 14,
+      "composite": 29.356740182112787
+    },
+    {
+      "filename": "fsm_64state_xor.v",
+      "path": "data/augmented/fsm_64state_xor.v",
+      "gate_count": 133,
+      "depth": 15,
+      "composite": 31.557055814339353
+    },
+    {
+      "filename": "fsm_8state_deep.v",
+      "path": "data/augmented/fsm_8state_deep.v",
+      "gate_count": 45,
+      "depth": 9,
+      "composite": 14.609243613581105
+    },
+    {
+      "filename": "fsm_8state_feedback.v",
+      "path": "data/augmented/fsm_8state_feedback.v",
+      "gate_count": 39,
+      "depth": 10,
+      "composite": 15.563025007672874
+    },
+    {
+      "filename": "fsm_8state_heavy.v",
+      "path": "data/augmented/fsm_8state_heavy.v",
+      "gate_count": 42,
+      "depth": 9,
+      "composite": 14.319581463238492
+    },
+    {
+      "filename": "fsm_8state_original.v",
+      "path": "data/augmented/fsm_8state_original.v",
+      "gate_count": 33,
+      "depth": 9,
+      "composite": 13.294091292476962
+    },
+    {
+      "filename": "fsm_8state_seq.v",
+      "path": "data/augmented/fsm_8state_seq.v",
+      "gate_count": 37,
+      "depth": 9,
+      "composite": 13.546349804879155
+    },
+    {
+      "filename": "fsm_8state_xor.v",
+      "path": "data/augmented/fsm_8state_xor.v",
+      "gate_count": 38,
+      "depth": 9,
+      "composite": 13.896612399152481
+    },
+    {
+      "filename": "hamming_enc_16bit_deep.v",
+      "path": "data/augmented/hamming_enc_16bit_deep.v",
+      "gate_count": 70,
+      "depth": 10,
+      "composite": 18.45098040014257
+    },
+    {
+      "filename": "hamming_enc_16bit_feedback.v",
+      "path": "data/augmented/hamming_enc_16bit_feedback.v",
+      "gate_count": 62,
+      "depth": 10,
+      "composite": 17.92391689498254
+    },
+    {
+      "filename": "hamming_enc_16bit_heavy.v",
+      "path": "data/augmented/hamming_enc_16bit_heavy.v",
+      "gate_count": 65,
+      "depth": 10,
+      "composite": 18.129133566428553
+    },
+    {
+      "filename": "hamming_enc_16bit_original.v",
+      "path": "data/augmented/hamming_enc_16bit_original.v",
+      "gate_count": 56,
+      "depth": 10,
+      "composite": 17.481880270062003
+    },
+    {
+      "filename": "hamming_enc_16bit_seq.v",
+      "path": "data/augmented/hamming_enc_16bit_seq.v",
+      "gate_count": 60,
+      "depth": 10,
+      "composite": 17.634279935629372
+    },
+    {
+      "filename": "hamming_enc_16bit_xor.v",
+      "path": "data/augmented/hamming_enc_16bit_xor.v",
+      "gate_count": 61,
+      "depth": 11,
+      "composite": 19.63862818511844
+    },
+    {
+      "filename": "hamming_enc_32bit_deep.v",
+      "path": "data/augmented/hamming_enc_32bit_deep.v",
+      "gate_count": 154,
+      "depth": 18,
+      "composite": 39.37537297505634
+    },
+    {
+      "filename": "hamming_enc_32bit_feedback.v",
+      "path": "data/augmented/hamming_enc_32bit_feedback.v",
+      "gate_count": 128,
+      "depth": 18,
+      "composite": 37.92977945366163
+    },
+    {
+      "filename": "hamming_enc_32bit_heavy.v",
+      "path": "data/augmented/hamming_enc_32bit_heavy.v",
+      "gate_count": 132,
+      "depth": 21,
+      "composite": 44.53205255532285
+    },
+    {
+      "filename": "hamming_enc_32bit_original.v",
+      "path": "data/augmented/hamming_enc_32bit_original.v",
+      "gate_count": 122,
+      "depth": 18,
+      "composite": 37.55447695214547
+    },
+    {
+      "filename": "hamming_enc_32bit_seq.v",
+      "path": "data/augmented/hamming_enc_32bit_seq.v",
+      "gate_count": 130,
+      "depth": 18,
+      "composite": 37.806669812116134
+    },
+    {
+      "filename": "hamming_enc_32bit_xor.v",
+      "path": "data/augmented/hamming_enc_32bit_xor.v",
+      "gate_count": 128,
+      "depth": 20,
+      "composite": 42.14419939295737
+    },
+    {
+      "filename": "hamming_enc_4bit_deep.v",
+      "path": "data/augmented/hamming_enc_4bit_deep.v",
+      "gate_count": 17,
+      "depth": 4,
+      "composite": 4.9217956855130955
+    },
+    {
+      "filename": "hamming_enc_4bit_feedback.v",
+      "path": "data/augmented/hamming_enc_4bit_feedback.v",
+      "gate_count": 19,
+      "depth": 3,
+      "composite": 3.8362608028584866
+    },
+    {
+      "filename": "hamming_enc_4bit_heavy.v",
+      "path": "data/augmented/hamming_enc_4bit_heavy.v",
+      "gate_count": 22,
+      "depth": 5,
+      "composite": 6.712113404111031
+    },
+    {
+      "filename": "hamming_enc_4bit_original.v",
+      "path": "data/augmented/hamming_enc_4bit_original.v",
+      "gate_count": 13,
+      "depth": 3,
+      "composite": 3.34183005692051
+    },
+    {
+      "filename": "hamming_enc_4bit_seq.v",
+      "path": "data/augmented/hamming_enc_4bit_seq.v",
+      "gate_count": 17,
+      "depth": 4,
+      "composite": 4.704365036222725
+    },
+    {
+      "filename": "hamming_enc_4bit_xor.v",
+      "path": "data/augmented/hamming_enc_4bit_xor.v",
+      "gate_count": 18,
+      "depth": 7,
+      "composite": 8.786907535723142
+    },
+    {
+      "filename": "hamming_enc_64bit_deep.v",
+      "path": "data/augmented/hamming_enc_64bit_deep.v",
+      "gate_count": 359,
+      "depth": 35,
+      "composite": 89.42830570024118
+    },
+    {
+      "filename": "hamming_enc_64bit_feedback.v",
+      "path": "data/augmented/hamming_enc_64bit_feedback.v",
+      "gate_count": 279,
+      "depth": 35,
+      "composite": 85.59614711457591
+    },
+    {
+      "filename": "hamming_enc_64bit_heavy.v",
+      "path": "data/augmented/hamming_enc_64bit_heavy.v",
+      "gate_count": 287,
+      "depth": 39,
+      "composite": 95.8573939726257
+    },
+    {
+      "filename": "hamming_enc_64bit_original.v",
+      "path": "data/augmented/hamming_enc_64bit_original.v",
+      "gate_count": 269,
+      "depth": 35,
+      "composite": 85.04132980008428
+    },
+    {
+      "filename": "hamming_enc_64bit_seq.v",
+      "path": "data/augmented/hamming_enc_64bit_seq.v",
+      "gate_count": 285,
+      "depth": 35,
+      "composite": 85.4867919172557
+    },
+    {
+      "filename": "hamming_enc_64bit_xor.v",
+      "path": "data/augmented/hamming_enc_64bit_xor.v",
+      "gate_count": 282,
+      "depth": 42,
+      "composite": 102.91046254941315
+    },
+    {
+      "filename": "hamming_enc_8bit_deep.v",
+      "path": "data/augmented/hamming_enc_8bit_deep.v",
+      "gate_count": 30,
+      "depth": 5,
+      "composite": 7.385606273598312
+    },
+    {
+      "filename": "hamming_enc_8bit_feedback.v",
+      "path": "data/augmented/hamming_enc_8bit_feedback.v",
+      "gate_count": 32,
+      "depth": 5,
+      "composite": 7.5257498915995305
+    },
+    {
+      "filename": "hamming_enc_8bit_heavy.v",
+      "path": "data/augmented/hamming_enc_8bit_heavy.v",
+      "gate_count": 35,
+      "depth": 6,
+      "composite": 9.264408266101654
+    },
+    {
+      "filename": "hamming_enc_8bit_original.v",
+      "path": "data/augmented/hamming_enc_8bit_original.v",
+      "gate_count": 26,
+      "depth": 5,
+      "composite": 7.07486673985409
+    },
+    {
+      "filename": "hamming_enc_8bit_seq.v",
+      "path": "data/augmented/hamming_enc_8bit_seq.v",
+      "gate_count": 30,
+      "depth": 5,
+      "composite": 7.235790156711096
+    },
+    {
+      "filename": "hamming_enc_8bit_xor.v",
+      "path": "data/augmented/hamming_enc_8bit_xor.v",
+      "gate_count": 31,
+      "depth": 8,
+      "composite": 11.930893550674181
+    },
+    {
+      "filename": "leon2_deep.v",
+      "path": "data/augmented/leon2_deep.v",
+      "gate_count": 778436,
+      "depth": 43,
+      "composite": 249.40975438046314
+    },
+    {
+      "filename": "leon2_feedback.v",
+      "path": "data/augmented/leon2_feedback.v",
+      "gate_count": 879104,
+      "depth": 43,
+      "composite": 252.17282841767715
+    },
+    {
+      "filename": "leon2_heavy.v",
+      "path": "data/augmented/leon2_heavy.v",
+      "gate_count": 826515,
+      "depth": 43,
+      "composite": 250.78046374783116
+    },
+    {
+      "filename": "leon2_original.v",
+      "path": "data/augmented/leon2_original.v",
+      "gate_count": 778136,
+      "depth": 43,
+      "composite": 249.40087770404892
+    },
+    {
+      "filename": "leon2_seq.v",
+      "path": "data/augmented/leon2_seq.v",
+      "gate_count": 820206,
+      "depth": 43,
+      "composite": 250.01327673249807
+    },
+    {
+      "filename": "leon2_xor.v",
+      "path": "data/augmented/leon2_xor.v",
+      "gate_count": 778236,
+      "depth": 43,
+      "composite": 249.40383706503107
+    },
+    {
+      "filename": "leon3_avnet_3s1500_deep.v",
+      "path": "data/augmented/leon3_avnet_3s1500_deep.v",
+      "gate_count": 814145,
+      "depth": 50,
+      "composite": 292.71013853478723
+    },
+    {
+      "filename": "leon3_avnet_3s1500_feedback.v",
+      "path": "data/augmented/leon3_avnet_3s1500_feedback.v",
+      "gate_count": 928221,
+      "depth": 50,
+      "composite": 295.92526416346277
+    },
+    {
+      "filename": "leon3_avnet_3s1500_heavy.v",
+      "path": "data/augmented/leon3_avnet_3s1500_heavy.v",
+      "gate_count": 868650,
+      "depth": 50,
+      "composite": 294.3057745304472
+    },
+    {
+      "filename": "leon3_avnet_3s1500_original.v",
+      "path": "data/augmented/leon3_avnet_3s1500_original.v",
+      "gate_count": 813845,
+      "depth": 50,
+      "composite": 292.7010233820976
+    },
+    {
+      "filename": "leon3_avnet_3s1500_seq.v",
+      "path": "data/augmented/leon3_avnet_3s1500_seq.v",
+      "gate_count": 861503,
+      "depth": 50,
+      "composite": 293.41337864736346
+    },
+    {
+      "filename": "leon3_avnet_3s1500_xor.v",
+      "path": "data/augmented/leon3_avnet_3s1500_xor.v",
+      "gate_count": 813945,
+      "depth": 50,
+      "composite": 292.70406219148646
+    },
+    {
+      "filename": "leon3mp_deep.v",
+      "path": "data/augmented/leon3mp_deep.v",
+      "gate_count": 504062,
+      "depth": 51,
+      "composite": 287.67960139561984
+    },
+    {
+      "filename": "leon3mp_feedback.v",
+      "path": "data/augmented/leon3mp_feedback.v",
+      "gate_count": 573674,
+      "depth": 51,
+      "composite": 290.9514301043122
+    },
+    {
+      "filename": "leon3mp_heavy.v",
+      "path": "data/augmented/leon3mp_heavy.v",
+      "gate_count": 537263,
+      "depth": 51,
+      "composite": 289.3004468647447
+    },
+    {
+      "filename": "leon3mp_original.v",
+      "path": "data/augmented/leon3mp_original.v",
+      "gate_count": 503762,
+      "depth": 51,
+      "composite": 287.6644012322105
+    },
+    {
+      "filename": "leon3mp_seq.v",
+      "path": "data/augmented/leon3mp_seq.v",
+      "gate_count": 532894,
+      "depth": 51,
+      "composite": 288.390635832257
+    },
+    {
+      "filename": "leon3mp_xor.v",
+      "path": "data/augmented/leon3mp_xor.v",
+      "gate_count": 503862,
+      "depth": 51,
+      "composite": 287.6694691124782
+    },
+    {
+      "filename": "lfsr_16bit_deep.v",
+      "path": "data/augmented/lfsr_16bit_deep.v",
+      "gate_count": 149,
+      "depth": 5,
+      "composite": 10.619258204835429
+    },
+    {
+      "filename": "lfsr_16bit_feedback.v",
+      "path": "data/augmented/lfsr_16bit_feedback.v",
+      "gate_count": 117,
+      "depth": 5,
+      "composite": 10.021606868913214
+    },
+    {
+      "filename": "lfsr_16bit_heavy.v",
+      "path": "data/augmented/lfsr_16bit_heavy.v",
+      "gate_count": 120,
+      "depth": 5,
+      "composite": 10.085166696493902
+    },
+    {
+      "filename": "lfsr_16bit_original.v",
+      "path": "data/augmented/lfsr_16bit_original.v",
+      "gate_count": 111,
+      "depth": 5,
+      "composite": 9.88861802644424
+    },
+    {
+      "filename": "lfsr_16bit_seq.v",
+      "path": "data/augmented/lfsr_16bit_seq.v",
+      "gate_count": 117,
+      "depth": 5,
+      "composite": 9.956130378462474
+    },
+    {
+      "filename": "lfsr_16bit_xor.v",
+      "path": "data/augmented/lfsr_16bit_xor.v",
+      "gate_count": 116,
+      "depth": 7,
+      "composite": 14.0
+    },
+    {
+      "filename": "lfsr_32bit_deep.v",
+      "path": "data/augmented/lfsr_32bit_deep.v",
+      "gate_count": 283,
+      "depth": 6,
+      "composite": 14.398042328886227
+    },
+    {
+      "filename": "lfsr_32bit_feedback.v",
+      "path": "data/augmented/lfsr_32bit_feedback.v",
+      "gate_count": 231,
+      "depth": 5,
+      "composite": 11.494265382048534
+    },
+    {
+      "filename": "lfsr_32bit_heavy.v",
+      "path": "data/augmented/lfsr_32bit_heavy.v",
+      "gate_count": 238,
+      "depth": 7,
+      "composite": 16.197070542584072
+    },
+    {
+      "filename": "lfsr_32bit_original.v",
+      "path": "data/augmented/lfsr_32bit_original.v",
+      "gate_count": 223,
+      "depth": 5,
+      "composite": 11.405166836238639
+    },
+    {
+      "filename": "lfsr_32bit_seq.v",
+      "path": "data/augmented/lfsr_32bit_seq.v",
+      "gate_count": 237,
+      "depth": 5,
+      "composite": 11.483325951307656
+    },
+    {
+      "filename": "lfsr_32bit_xor.v",
+      "path": "data/augmented/lfsr_32bit_xor.v",
+      "gate_count": 234,
+      "depth": 13,
+      "composite": 29.96956780280611
+    },
+    {
+      "filename": "lfsr_8bit_deep.v",
+      "path": "data/augmented/lfsr_8bit_deep.v",
+      "gate_count": 73,
+      "depth": 5,
+      "composite": 9.064566783214277
+    },
+    {
+      "filename": "lfsr_8bit_feedback.v",
+      "path": "data/augmented/lfsr_8bit_feedback.v",
+      "gate_count": 61,
+      "depth": 5,
+      "composite": 8.621379348003945
+    },
+    {
+      "filename": "lfsr_8bit_heavy.v",
+      "path": "data/augmented/lfsr_8bit_heavy.v",
+      "gate_count": 64,
+      "depth": 6,
+      "composite": 10.489128162037202
+    },
+    {
+      "filename": "lfsr_8bit_original.v",
+      "path": "data/augmented/lfsr_8bit_original.v",
+      "gate_count": 55,
+      "depth": 5,
+      "composite": 8.360489289678588
+    },
+    {
+      "filename": "lfsr_8bit_seq.v",
+      "path": "data/augmented/lfsr_8bit_seq.v",
+      "gate_count": 59,
+      "depth": 5,
+      "composite": 8.450980400142567
+    },
+    {
+      "filename": "lfsr_8bit_xor.v",
+      "path": "data/augmented/lfsr_8bit_xor.v",
+      "gate_count": 60,
+      "depth": 8,
+      "composite": 13.728026749078394
+    },
+    {
+      "filename": "mem_ctrl_original.v",
+      "path": "data/augmented/mem_ctrl_original.v",
+      "gate_count": 274,
+      "depth": 1,
+      "composite": 2.437750562820388
+    },
+    {
+      "filename": "netcard_deep.v",
+      "path": "data/augmented/netcard_deep.v",
+      "gate_count": 693004,
+      "depth": 34,
+      "composite": 197.0948451726198
+    },
+    {
+      "filename": "netcard_feedback.v",
+      "path": "data/augmented/netcard_feedback.v",
+      "gate_count": 792936,
+      "depth": 34,
+      "composite": 199.2802223373508
+    },
+    {
+      "filename": "netcard_heavy.v",
+      "path": "data/augmented/netcard_heavy.v",
+      "gate_count": 740732,
+      "depth": 34,
+      "composite": 198.17899264949907
+    },
+    {
+      "filename": "netcard_original.v",
+      "path": "data/augmented/netcard_original.v",
+      "gate_count": 692704,
+      "depth": 34,
+      "composite": 197.087772537108
+    },
+    {
+      "filename": "netcard_seq.v",
+      "path": "data/augmented/netcard_seq.v",
+      "gate_count": 734468,
+      "depth": 34,
+      "composite": 197.57216045603758
+    },
+    {
+      "filename": "netcard_xor.v",
+      "path": "data/augmented/netcard_xor.v",
+      "gate_count": 692804,
+      "depth": 34,
+      "composite": 197.0901304587049
+    },
+    {
+      "filename": "pci_bridge32_deep.v",
+      "path": "data/augmented/pci_bridge32_deep.v",
+      "gate_count": 14754,
+      "depth": 23,
+      "composite": 95.18749802503241
+    },
+    {
+      "filename": "pci_bridge32_feedback.v",
+      "path": "data/augmented/pci_bridge32_feedback.v",
+      "gate_count": 16646,
+      "depth": 23,
+      "composite": 96.47446810316686
+    },
+    {
+      "filename": "pci_bridge32_heavy.v",
+      "path": "data/augmented/pci_bridge32_heavy.v",
+      "gate_count": 15503,
+      "depth": 23,
+      "composite": 95.71697357889313
+    },
+    {
+      "filename": "pci_bridge32_original.v",
+      "path": "data/augmented/pci_bridge32_original.v",
+      "gate_count": 14454,
+      "depth": 23,
+      "composite": 94.96729424189881
+    },
+    {
+      "filename": "pci_bridge32_seq.v",
+      "path": "data/augmented/pci_bridge32_seq.v",
+      "gate_count": 15366,
+      "depth": 23,
+      "composite": 95.30011384541142
+    },
+    {
+      "filename": "pci_bridge32_xor.v",
+      "path": "data/augmented/pci_bridge32_xor.v",
+      "gate_count": 14554,
+      "depth": 23,
+      "composite": 95.04123619686746
+    },
+    {
+      "filename": "pci_conf_cyc_addr_dec_deep.v",
+      "path": "data/augmented/pci_conf_cyc_addr_dec_deep.v",
+      "gate_count": 137,
+      "depth": 6,
+      "composite": 12.82032340293844
+    },
+    {
+      "filename": "pci_conf_cyc_addr_dec_feedback.v",
+      "path": "data/augmented/pci_conf_cyc_addr_dec_feedback.v",
+      "gate_count": 113,
+      "depth": 6,
+      "composite": 12.318470660900516
+    },
+    {
+      "filename": "pci_conf_cyc_addr_dec_heavy.v",
+      "path": "data/augmented/pci_conf_cyc_addr_dec_heavy.v",
+      "gate_count": 116,
+      "depth": 7,
+      "composite": 14.45120592458843
+    },
+    {
+      "filename": "pci_conf_cyc_addr_dec_original.v",
+      "path": "data/augmented/pci_conf_cyc_addr_dec_original.v",
+      "gate_count": 107,
+      "depth": 6,
+      "composite": 12.176302666111258
+    },
+    {
+      "filename": "pci_conf_cyc_addr_dec_seq.v",
+      "path": "data/augmented/pci_conf_cyc_addr_dec_seq.v",
+      "gate_count": 113,
+      "depth": 6,
+      "composite": 12.248356110949349
+    },
+    {
+      "filename": "pci_conf_cyc_addr_dec_xor.v",
+      "path": "data/augmented/pci_conf_cyc_addr_dec_xor.v",
+      "gate_count": 112,
+      "depth": 8,
+      "composite": 16.393744181361452
+    },
+    {
+      "filename": "pci_spoci_ctrl_deep.v",
+      "path": "data/augmented/pci_spoci_ctrl_deep.v",
+      "gate_count": 1565,
+      "depth": 26,
+      "composite": 82.61594899817642
+    },
+    {
+      "filename": "pci_spoci_ctrl_feedback.v",
+      "path": "data/augmented/pci_spoci_ctrl_feedback.v",
+      "gate_count": 1457,
+      "depth": 20,
+      "composite": 62.90392812228363
+    },
+    {
+      "filename": "pci_spoci_ctrl_heavy.v",
+      "path": "data/augmented/pci_spoci_ctrl_heavy.v",
+      "gate_count": 1357,
+      "depth": 53,
+      "composite": 164.98581873245624
+    },
+    {
+      "filename": "pci_spoci_ctrl_original.v",
+      "path": "data/augmented/pci_spoci_ctrl_original.v",
+      "gate_count": 1265,
+      "depth": 20,
+      "composite": 61.619740938217745
+    },
+    {
+      "filename": "pci_spoci_ctrl_seq.v",
+      "path": "data/augmented/pci_spoci_ctrl_seq.v",
+      "gate_count": 1345,
+      "depth": 20,
+      "composite": 61.9033870286351
+    },
+    {
+      "filename": "pci_spoci_ctrl_xor.v",
+      "path": "data/augmented/pci_spoci_ctrl_xor.v",
+      "gate_count": 1326,
+      "depth": 28,
+      "composite": 86.86814375907743
+    },
+    {
+      "filename": "pipeline_16w_4s_deep.v",
+      "path": "data/augmented/pipeline_16w_4s_deep.v",
+      "gate_count": 248,
+      "depth": 5,
+      "composite": 11.324089115047682
+    },
+    {
+      "filename": "pipeline_16w_4s_feedback.v",
+      "path": "data/augmented/pipeline_16w_4s_feedback.v",
+      "gate_count": 194,
+      "depth": 7,
+      "composite": 14.797603466147859
+    },
+    {
+      "filename": "pipeline_16w_4s_heavy.v",
+      "path": "data/augmented/pipeline_16w_4s_heavy.v",
+      "gate_count": 202,
+      "depth": 7,
+      "composite": 14.979153604808655
+    },
+    {
+      "filename": "pipeline_16w_4s_original.v",
+      "path": "data/augmented/pipeline_16w_4s_original.v",
+      "gate_count": 188,
+      "depth": 5,
+      "composite": 10.467108425811176
+    },
+    {
+      "filename": "pipeline_16w_4s_seq.v",
+      "path": "data/augmented/pipeline_16w_4s_seq.v",
+      "gate_count": 200,
+      "depth": 5,
+      "composite": 10.569716761534185
+    },
+    {
+      "filename": "pipeline_16w_4s_xor.v",
+      "path": "data/augmented/pipeline_16w_4s_xor.v",
+      "gate_count": 197,
+      "depth": 8,
+      "composite": 16.990813127736686
+    },
+    {
+      "filename": "pipeline_16w_8s_deep.v",
+      "path": "data/augmented/pipeline_16w_8s_deep.v",
+      "gate_count": 480,
+      "depth": 8,
+      "composite": 20.37234130782505
+    },
+    {
+      "filename": "pipeline_16w_8s_feedback.v",
+      "path": "data/augmented/pipeline_16w_8s_feedback.v",
+      "gate_count": 381,
+      "depth": 8,
+      "composite": 19.224964169406544
+    },
+    {
+      "filename": "pipeline_16w_8s_heavy.v",
+      "path": "data/augmented/pipeline_16w_8s_heavy.v",
+      "gate_count": 387,
+      "depth": 8,
+      "composite": 19.306398112650015
+    },
+    {
+      "filename": "pipeline_16w_8s_original.v",
+      "path": "data/augmented/pipeline_16w_8s_original.v",
+      "gate_count": 360,
+      "depth": 5,
+      "composite": 11.827439924454499
+    },
+    {
+      "filename": "pipeline_16w_8s_seq.v",
+      "path": "data/augmented/pipeline_16w_8s_seq.v",
+      "gate_count": 384,
+      "depth": 5,
+      "composite": 11.936949131693646
+    },
+    {
+      "filename": "pipeline_16w_8s_xor.v",
+      "path": "data/augmented/pipeline_16w_8s_xor.v",
+      "gate_count": 378,
+      "depth": 10,
+      "composite": 23.979400086720375
+    },
+    {
+      "filename": "pipeline_32w_5s_deep.v",
+      "path": "data/augmented/pipeline_32w_5s_deep.v",
+      "gate_count": 612,
+      "depth": 9,
+      "composite": 23.896245913302437
+    },
+    {
+      "filename": "pipeline_32w_5s_feedback.v",
+      "path": "data/augmented/pipeline_32w_5s_feedback.v",
+      "gate_count": 498,
+      "depth": 9,
+      "composite": 22.760250302498893
+    },
+    {
+      "filename": "pipeline_32w_5s_heavy.v",
+      "path": "data/augmented/pipeline_32w_5s_heavy.v",
+      "gate_count": 495,
+      "depth": 8,
+      "composite": 20.20035845629476
+    },
+    {
+      "filename": "pipeline_32w_5s_original.v",
+      "path": "data/augmented/pipeline_32w_5s_original.v",
+      "gate_count": 462,
+      "depth": 5,
+      "composite": 12.400034714785752
+    },
+    {
+      "filename": "pipeline_32w_5s_seq.v",
+      "path": "data/augmented/pipeline_32w_5s_seq.v",
+      "gate_count": 492,
+      "depth": 5,
+      "composite": 12.505296311088758
+    },
+    {
+      "filename": "pipeline_32w_5s_xor.v",
+      "path": "data/augmented/pipeline_32w_5s_xor.v",
+      "gate_count": 485,
+      "depth": 11,
+      "composite": 27.63071697076762
+    },
+    {
+      "filename": "pipeline_8w_3s_deep.v",
+      "path": "data/augmented/pipeline_8w_3s_deep.v",
+      "gate_count": 100,
+      "depth": 6,
+      "composite": 11.284881553684748
+    },
+    {
+      "filename": "pipeline_8w_3s_feedback.v",
+      "path": "data/augmented/pipeline_8w_3s_feedback.v",
+      "gate_count": 80,
+      "depth": 6,
+      "composite": 10.489128162037202
+    },
+    {
+      "filename": "pipeline_8w_3s_heavy.v",
+      "path": "data/augmented/pipeline_8w_3s_heavy.v",
+      "gate_count": 83,
+      "depth": 6,
+      "composite": 10.625112069852864
+    },
+    {
+      "filename": "pipeline_8w_3s_original.v",
+      "path": "data/augmented/pipeline_8w_3s_original.v",
+      "gate_count": 74,
+      "depth": 5,
+      "composite": 8.494850021680094
+    },
+    {
+      "filename": "pipeline_8w_3s_seq.v",
+      "path": "data/augmented/pipeline_8w_3s_seq.v",
+      "gate_count": 78,
+      "depth": 5,
+      "composite": 8.580016718173995
+    },
+    {
+      "filename": "pipeline_8w_3s_xor.v",
+      "path": "data/augmented/pipeline_8w_3s_xor.v",
+      "gate_count": 79,
+      "depth": 8,
+      "composite": 13.922901515953951
+    },
+    {
+      "filename": "pipeline_8w_5s_deep.v",
+      "path": "data/augmented/pipeline_8w_5s_deep.v",
+      "gate_count": 162,
+      "depth": 5,
+      "composite": 10.431799153373742
+    },
+    {
+      "filename": "pipeline_8w_5s_feedback.v",
+      "path": "data/augmented/pipeline_8w_5s_feedback.v",
+      "gate_count": 124,
+      "depth": 5,
+      "composite": 9.621396430309408
+    },
+    {
+      "filename": "pipeline_8w_5s_heavy.v",
+      "path": "data/augmented/pipeline_8w_5s_heavy.v",
+      "gate_count": 127,
+      "depth": 5,
+      "composite": 9.697596263093093
+    },
+    {
+      "filename": "pipeline_8w_5s_original.v",
+      "path": "data/augmented/pipeline_8w_5s_original.v",
+      "gate_count": 118,
+      "depth": 5,
+      "composite": 9.460473013452402
+    },
+    {
+      "filename": "pipeline_8w_5s_seq.v",
+      "path": "data/augmented/pipeline_8w_5s_seq.v",
+      "gate_count": 124,
+      "depth": 5,
+      "composite": 9.542425094393248
+    },
+    {
+      "filename": "pipeline_8w_5s_xor.v",
+      "path": "data/augmented/pipeline_8w_5s_xor.v",
+      "gate_count": 123,
+      "depth": 7,
+      "composite": 13.433546646632518
+    },
+    {
+      "filename": "prienc_16input_deep.v",
+      "path": "data/augmented/prienc_16input_deep.v",
+      "gate_count": 378,
+      "depth": 23,
+      "composite": 59.28231139625619
+    },
+    {
+      "filename": "prienc_16input_feedback.v",
+      "path": "data/augmented/prienc_16input_feedback.v",
+      "gate_count": 298,
+      "depth": 23,
+      "composite": 56.90697407375387
+    },
+    {
+      "filename": "prienc_16input_heavy.v",
+      "path": "data/augmented/prienc_16input_heavy.v",
+      "gate_count": 307,
+      "depth": 23,
+      "composite": 57.20418263597529
+    },
+    {
+      "filename": "prienc_16input_original.v",
+      "path": "data/augmented/prienc_16input_original.v",
+      "gate_count": 288,
+      "depth": 23,
+      "composite": 56.56602721846232
+    },
+    {
+      "filename": "prienc_16input_seq.v",
+      "path": "data/augmented/prienc_16input_seq.v",
+      "gate_count": 306,
+      "depth": 23,
+      "composite": 56.873398334295885
+    },
+    {
+      "filename": "prienc_16input_xor.v",
+      "path": "data/augmented/prienc_16input_xor.v",
+      "gate_count": 302,
+      "depth": 29,
+      "composite": 71.92020134575736
+    },
+    {
+      "filename": "prienc_32input_deep.v",
+      "path": "data/augmented/prienc_32input_deep.v",
+      "gate_count": 1404,
+      "depth": 47,
+      "composite": 147.92625406630796
+    },
+    {
+      "filename": "prienc_32input_feedback.v",
+      "path": "data/augmented/prienc_32input_feedback.v",
+      "gate_count": 1280,
+      "depth": 47,
+      "composite": 146.0388685734498
+    },
+    {
+      "filename": "prienc_32input_heavy.v",
+      "path": "data/augmented/prienc_32input_heavy.v",
+      "gate_count": 1187,
+      "depth": 49,
+      "composite": 150.64808522877496
+    },
+    {
+      "filename": "prienc_32input_original.v",
+      "path": "data/augmented/prienc_32input_original.v",
+      "gate_count": 1104,
+      "depth": 47,
+      "composite": 143.01954644947946
+    },
+    {
+      "filename": "prienc_32input_seq.v",
+      "path": "data/augmented/prienc_32input_seq.v",
+      "gate_count": 1176,
+      "depth": 47,
+      "composite": 143.67452801281422
+    },
+    {
+      "filename": "prienc_32input_xor.v",
+      "path": "data/augmented/prienc_32input_xor.v",
+      "gate_count": 1159,
+      "depth": 75,
+      "composite": 229.8062576972697
+    },
+    {
+      "filename": "prienc_4input_deep.v",
+      "path": "data/augmented/prienc_4input_deep.v",
+      "gate_count": 26,
+      "depth": 5,
+      "composite": 7.07486673985409
+    },
+    {
+      "filename": "prienc_4input_feedback.v",
+      "path": "data/augmented/prienc_4input_feedback.v",
+      "gate_count": 26,
+      "depth": 5,
+      "composite": 7.07486673985409
+    },
+    {
+      "filename": "prienc_4input_heavy.v",
+      "path": "data/augmented/prienc_4input_heavy.v",
+      "gate_count": 29,
+      "depth": 7,
+      "composite": 10.236785985292693
+    },
+    {
+      "filename": "prienc_4input_original.v",
+      "path": "data/augmented/prienc_4input_original.v",
+      "gate_count": 20,
+      "depth": 5,
+      "composite": 6.505149978319906
+    },
+    {
+      "filename": "prienc_4input_seq.v",
+      "path": "data/augmented/prienc_4input_seq.v",
+      "gate_count": 24,
+      "depth": 5,
+      "composite": 6.712113404111031
+    },
+    {
+      "filename": "prienc_4input_xor.v",
+      "path": "data/augmented/prienc_4input_xor.v",
+      "gate_count": 25,
+      "depth": 8,
+      "composite": 11.183520069376302
+    },
+    {
+      "filename": "prienc_8input_deep.v",
+      "path": "data/augmented/prienc_8input_deep.v",
+      "gate_count": 104,
+      "depth": 11,
+      "composite": 22.187366732286584
+    },
+    {
+      "filename": "prienc_8input_feedback.v",
+      "path": "data/augmented/prienc_8input_feedback.v",
+      "gate_count": 82,
+      "depth": 11,
+      "composite": 21.051952376220882
+    },
+    {
+      "filename": "prienc_8input_heavy.v",
+      "path": "data/augmented/prienc_8input_heavy.v",
+      "gate_count": 85,
+      "depth": 11,
+      "composite": 21.22360818285722
+    },
+    {
+      "filename": "prienc_8input_original.v",
+      "path": "data/augmented/prienc_8input_original.v",
+      "gate_count": 76,
+      "depth": 11,
+      "composite": 20.688949515088705
+    },
+    {
+      "filename": "prienc_8input_seq.v",
+      "path": "data/augmented/prienc_8input_seq.v",
+      "gate_count": 80,
+      "depth": 11,
+      "composite": 20.813040629595285
+    },
+    {
+      "filename": "prienc_8input_xor.v",
+      "path": "data/augmented/prienc_8input_xor.v",
+      "gate_count": 81,
+      "depth": 11,
+      "composite": 20.993335207665147
+    },
+    {
+      "filename": "ripple_adder_16bit_deep.v",
+      "path": "data/augmented/ripple_adder_16bit_deep.v",
+      "gate_count": 129,
+      "depth": 34,
+      "composite": 71.76005015017446
+    },
+    {
+      "filename": "ripple_adder_16bit_feedback.v",
+      "path": "data/augmented/ripple_adder_16bit_feedback.v",
+      "gate_count": 103,
+      "depth": 34,
+      "composite": 68.43646563997585
+    },
+    {
+      "filename": "ripple_adder_16bit_heavy.v",
+      "path": "data/augmented/ripple_adder_16bit_heavy.v",
+      "gate_count": 106,
+      "depth": 35,
+      "composite": 70.88570528426696
+    },
+    {
+      "filename": "ripple_adder_16bit_original.v",
+      "path": "data/augmented/ripple_adder_16bit_original.v",
+      "gate_count": 97,
+      "depth": 34,
+      "composite": 67.55023896505232
+    },
+    {
+      "filename": "ripple_adder_16bit_seq.v",
+      "path": "data/augmented/ripple_adder_16bit_seq.v",
+      "gate_count": 103,
+      "depth": 34,
+      "composite": 68.0
+    },
+    {
+      "filename": "ripple_adder_16bit_xor.v",
+      "path": "data/augmented/ripple_adder_16bit_xor.v",
+      "gate_count": 102,
+      "depth": 35,
+      "composite": 70.30100601166711
+    },
+    {
+      "filename": "ripple_adder_32bit_deep.v",
+      "path": "data/augmented/ripple_adder_32bit_deep.v",
+      "gate_count": 253,
+      "depth": 67,
+      "composite": 161.00907491877982
+    },
+    {
+      "filename": "ripple_adder_32bit_feedback.v",
+      "path": "data/augmented/ripple_adder_32bit_feedback.v",
+      "gate_count": 199,
+      "depth": 66,
+      "composite": 151.72430304304066
+    },
+    {
+      "filename": "ripple_adder_32bit_heavy.v",
+      "path": "data/augmented/ripple_adder_32bit_heavy.v",
+      "gate_count": 207,
+      "depth": 66,
+      "composite": 152.85404280015658
+    },
+    {
+      "filename": "ripple_adder_32bit_original.v",
+      "path": "data/augmented/ripple_adder_32bit_original.v",
+      "gate_count": 193,
+      "depth": 66,
+      "composite": 150.84678239451307
+    },
+    {
+      "filename": "ripple_adder_32bit_seq.v",
+      "path": "data/augmented/ripple_adder_32bit_seq.v",
+      "gate_count": 205,
+      "depth": 66,
+      "composite": 151.72430304304066
+    },
+    {
+      "filename": "ripple_adder_32bit_xor.v",
+      "path": "data/augmented/ripple_adder_32bit_xor.v",
+      "gate_count": 202,
+      "depth": 66,
+      "composite": 152.15319038347718
+    },
+    {
+      "filename": "ripple_adder_4bit_deep.v",
+      "path": "data/augmented/ripple_adder_4bit_deep.v",
+      "gate_count": 33,
+      "depth": 10,
+      "composite": 15.185139398778876
+    },
+    {
+      "filename": "ripple_adder_4bit_feedback.v",
+      "path": "data/augmented/ripple_adder_4bit_feedback.v",
+      "gate_count": 31,
+      "depth": 10,
+      "composite": 14.913616938342727
+    },
+    {
+      "filename": "ripple_adder_4bit_heavy.v",
+      "path": "data/augmented/ripple_adder_4bit_heavy.v",
+      "gate_count": 34,
+      "depth": 10,
+      "composite": 15.314789170422552
+    },
+    {
+      "filename": "ripple_adder_4bit_original.v",
+      "path": "data/augmented/ripple_adder_4bit_original.v",
+      "gate_count": 25,
+      "depth": 10,
+      "composite": 13.979400086720377
+    },
+    {
+      "filename": "ripple_adder_4bit_seq.v",
+      "path": "data/augmented/ripple_adder_4bit_seq.v",
+      "gate_count": 29,
+      "depth": 10,
+      "composite": 14.313637641589875
+    },
+    {
+      "filename": "ripple_adder_4bit_xor.v",
+      "path": "data/augmented/ripple_adder_4bit_xor.v",
+      "gate_count": 30,
+      "depth": 12,
+      "composite": 17.725455056635948
+    },
+    {
+      "filename": "ripple_adder_8bit_deep.v",
+      "path": "data/augmented/ripple_adder_8bit_deep.v",
+      "gate_count": 65,
+      "depth": 18,
+      "composite": 32.632440419571395
+    },
+    {
+      "filename": "ripple_adder_8bit_feedback.v",
+      "path": "data/augmented/ripple_adder_8bit_feedback.v",
+      "gate_count": 55,
+      "depth": 18,
+      "composite": 31.32652841089639
+    },
+    {
+      "filename": "ripple_adder_8bit_heavy.v",
+      "path": "data/augmented/ripple_adder_8bit_heavy.v",
+      "gate_count": 58,
+      "depth": 19,
+      "composite": 33.50513187769581
+    },
+    {
+      "filename": "ripple_adder_8bit_original.v",
+      "path": "data/augmented/ripple_adder_8bit_original.v",
+      "gate_count": 49,
+      "depth": 18,
+      "composite": 30.423529440513246
+    },
+    {
+      "filename": "ripple_adder_8bit_seq.v",
+      "path": "data/augmented/ripple_adder_8bit_seq.v",
+      "gate_count": 53,
+      "depth": 18,
+      "composite": 30.736263169762854
+    },
+    {
+      "filename": "ripple_adder_8bit_xor.v",
+      "path": "data/augmented/ripple_adder_8bit_xor.v",
+      "gate_count": 54,
+      "depth": 18,
+      "composite": 31.183087676813436
+    },
+    {
+      "filename": "s1196_deep.v",
+      "path": "data/augmented/s1196_deep.v",
+      "gate_count": 656,
+      "depth": 13,
+      "composite": 36.52427629025848
+    },
+    {
+      "filename": "s1196_feedback.v",
+      "path": "data/augmented/s1196_feedback.v",
+      "gate_count": 512,
+      "depth": 10,
+      "composite": 26.99837725867246
+    },
+    {
+      "filename": "s1196_heavy.v",
+      "path": "data/augmented/s1196_heavy.v",
+      "gate_count": 512,
+      "depth": 10,
+      "composite": 26.99837725867246
+    },
+    {
+      "filename": "s1196_original.v",
+      "path": "data/augmented/s1196_original.v",
+      "gate_count": 476,
+      "depth": 10,
+      "composite": 26.67452952889954
+    },
+    {
+      "filename": "s1196_seq.v",
+      "path": "data/augmented/s1196_seq.v",
+      "gate_count": 508,
+      "depth": 10,
+      "composite": 26.82145076373832
+    },
+    {
+      "filename": "s1196_xor.v",
+      "path": "data/augmented/s1196_xor.v",
+      "gate_count": 500,
+      "depth": 10,
+      "composite": 26.893088591236204
+    },
+    {
+      "filename": "s1238_deep.v",
+      "path": "data/augmented/s1238_deep.v",
+      "gate_count": 787,
+      "depth": 18,
+      "composite": 52.0376327458144
+    },
+    {
+      "filename": "s1238_feedback.v",
+      "path": "data/augmented/s1238_feedback.v",
+      "gate_count": 632,
+      "depth": 13,
+      "composite": 36.3283446065692
+    },
+    {
+      "filename": "s1238_heavy.v",
+      "path": "data/augmented/s1238_heavy.v",
+      "gate_count": 619,
+      "depth": 13,
+      "composite": 36.209287855139976
+    },
+    {
+      "filename": "s1238_original.v",
+      "path": "data/augmented/s1238_original.v",
+      "gate_count": 577,
+      "depth": 13,
+      "composite": 35.80652836424324
+    },
+    {
+      "filename": "s1238_seq.v",
+      "path": "data/augmented/s1238_seq.v",
+      "gate_count": 615,
+      "depth": 13,
+      "composite": 35.992295316218986
+    },
+    {
+      "filename": "s1238_xor.v",
+      "path": "data/augmented/s1238_xor.v",
+      "gate_count": 606,
+      "depth": 13,
+      "composite": 36.0876663046818
+    },
+    {
+      "filename": "s13207_deep.v",
+      "path": "data/augmented/s13207_deep.v",
+      "gate_count": 1502,
+      "depth": 16,
+      "composite": 49.622453608885294
+    },
+    {
+      "filename": "s13207_feedback.v",
+      "path": "data/augmented/s13207_feedback.v",
+      "gate_count": 1394,
+      "depth": 17,
+      "composite": 52.06389373187877
+    },
+    {
+      "filename": "s13207_heavy.v",
+      "path": "data/augmented/s13207_heavy.v",
+      "gate_count": 1294,
+      "depth": 10,
+      "composite": 30.232524596337115
+    },
+    {
+      "filename": "s13207_original.v",
+      "path": "data/augmented/s13207_original.v",
+      "gate_count": 1202,
+      "depth": 10,
+      "composite": 29.836262871245346
+    },
+    {
+      "filename": "s13207_seq.v",
+      "path": "data/augmented/s13207_seq.v",
+      "gate_count": 1282,
+      "depth": 10,
+      "composite": 30.013009330204184
+    },
+    {
+      "filename": "s13207_xor.v",
+      "path": "data/augmented/s13207_xor.v",
+      "gate_count": 1262,
+      "depth": 11,
+      "composite": 33.10863197083376
+    },
+    {
+      "filename": "s1423_deep.v",
+      "path": "data/augmented/s1423_deep.v",
+      "gate_count": 794,
+      "depth": 9,
+      "composite": 25.83889932384518
+    },
+    {
+      "filename": "s1423_feedback.v",
+      "path": "data/augmented/s1423_feedback.v",
+      "gate_count": 656,
+      "depth": 8,
+      "composite": 22.254042997219752
+    },
+    {
+      "filename": "s1423_heavy.v",
+      "path": "data/augmented/s1423_heavy.v",
+      "gate_count": 630,
+      "depth": 8,
+      "composite": 22.10142850981949
+    },
+    {
+      "filename": "s1423_original.v",
+      "path": "data/augmented/s1423_original.v",
+      "gate_count": 584,
+      "depth": 8,
+      "composite": 21.81381767221258
+    },
+    {
+      "filename": "s1423_seq.v",
+      "path": "data/augmented/s1423_seq.v",
+      "gate_count": 624,
+      "depth": 8,
+      "composite": 21.941801050437586
+    },
+    {
+      "filename": "s1423_xor.v",
+      "path": "data/augmented/s1423_xor.v",
+      "gate_count": 614,
+      "depth": 8,
+      "composite": 22.00406715881077
+    },
+    {
+      "filename": "s1488_deep.v",
+      "path": "data/augmented/s1488_deep.v",
+      "gate_count": 846,
+      "depth": 20,
+      "composite": 58.48558572123763
+    },
+    {
+      "filename": "s1488_feedback.v",
+      "path": "data/augmented/s1488_feedback.v",
+      "gate_count": 708,
+      "depth": 16,
+      "composite": 45.54139379407688
+    },
+    {
+      "filename": "s1488_heavy.v",
+      "path": "data/augmented/s1488_heavy.v",
+      "gate_count": 683,
+      "depth": 28,
+      "composite": 79.25648272318404
+    },
+    {
+      "filename": "s1488_original.v",
+      "path": "data/augmented/s1488_original.v",
+      "gate_count": 636,
+      "depth": 16,
+      "composite": 44.78944879125731
+    },
+    {
+      "filename": "s1488_seq.v",
+      "path": "data/augmented/s1488_seq.v",
+      "gate_count": 678,
+      "depth": 16,
+      "composite": 45.017295817091075
+    },
+    {
+      "filename": "s1488_xor.v",
+      "path": "data/augmented/s1488_xor.v",
+      "gate_count": 667,
+      "depth": 37,
+      "composite": 104.34745400096868
+    },
+    {
+      "filename": "s1494_deep.v",
+      "path": "data/augmented/s1494_deep.v",
+      "gate_count": 883,
+      "depth": 20,
+      "composite": 58.859991867320815
+    },
+    {
+      "filename": "s1494_feedback.v",
+      "path": "data/augmented/s1494_feedback.v",
+      "gate_count": 715,
+      "depth": 17,
+      "composite": 48.46098599811213
+    },
+    {
+      "filename": "s1494_heavy.v",
+      "path": "data/augmented/s1494_heavy.v",
+      "gate_count": 690,
+      "depth": 32,
+      "composite": 90.72179525504372
+    },
+    {
+      "filename": "s1494_original.v",
+      "path": "data/augmented/s1494_original.v",
+      "gate_count": 643,
+      "depth": 17,
+      "composite": 47.67037034970095
+    },
+    {
+      "filename": "s1494_seq.v",
+      "path": "data/augmented/s1494_seq.v",
+      "gate_count": 685,
+      "depth": 17,
+      "composite": 47.90984019143725
+    },
+    {
+      "filename": "s1494_xor.v",
+      "path": "data/augmented/s1494_xor.v",
+      "gate_count": 675,
+      "depth": 41,
+      "composite": 115.84247082848076
+    },
+    {
+      "filename": "s15850_deep.v",
+      "path": "data/augmented/s15850_deep.v",
+      "gate_count": 943,
+      "depth": 16,
+      "composite": 46.70524947801718
+    },
+    {
+      "filename": "s15850_feedback.v",
+      "path": "data/augmented/s15850_feedback.v",
+      "gate_count": 781,
+      "depth": 11,
+      "composite": 31.072541087231002
+    },
+    {
+      "filename": "s15850_heavy.v",
+      "path": "data/augmented/s15850_heavy.v",
+      "gate_count": 753,
+      "depth": 11,
+      "composite": 30.86797971382276
+    },
+    {
+      "filename": "s15850_original.v",
+      "path": "data/augmented/s15850_original.v",
+      "gate_count": 703,
+      "depth": 11,
+      "composite": 30.479372128063588
+    },
+    {
+      "filename": "s15850_seq.v",
+      "path": "data/augmented/s15850_seq.v",
+      "gate_count": 747,
+      "depth": 11,
+      "composite": 30.654265643601175
+    },
+    {
+      "filename": "s15850_xor.v",
+      "path": "data/augmented/s15850_xor.v",
+      "gate_count": 737,
+      "depth": 11,
+      "composite": 30.747030486506667
+    },
+    {
+      "filename": "s208_1_deep.v",
+      "path": "data/augmented/s208_1_deep.v",
+      "gate_count": 105,
+      "depth": 9,
+      "composite": 17.880945608396203
+    },
+    {
+      "filename": "s208_1_feedback.v",
+      "path": "data/augmented/s208_1_feedback.v",
+      "gate_count": 79,
+      "depth": 8,
+      "composite": 14.810066789752602
+    },
+    {
+      "filename": "s208_1_heavy.v",
+      "path": "data/augmented/s208_1_heavy.v",
+      "gate_count": 82,
+      "depth": 8,
+      "composite": 14.95385375784781
+    },
+    {
+      "filename": "s208_1_original.v",
+      "path": "data/augmented/s208_1_original.v",
+      "gate_count": 73,
+      "depth": 8,
+      "composite": 14.503306853142844
+    },
+    {
+      "filename": "s208_1_seq.v",
+      "path": "data/augmented/s208_1_seq.v",
+      "gate_count": 77,
+      "depth": 8,
+      "composite": 14.608598421606612
+    },
+    {
+      "filename": "s208_1_xor.v",
+      "path": "data/augmented/s208_1_xor.v",
+      "gate_count": 78,
+      "depth": 8,
+      "composite": 14.760784320114055
+    },
+    {
+      "filename": "s27_deep.v",
+      "path": "data/augmented/s27_deep.v",
+      "gate_count": 27,
+      "depth": 9,
+      "composite": 12.421901175404454
+    },
+    {
+      "filename": "s27_feedback.v",
+      "path": "data/augmented/s27_feedback.v",
+      "gate_count": 25,
+      "depth": 11,
+      "composite": 14.766649489044267
+    },
+    {
+      "filename": "s27_heavy.v",
+      "path": "data/augmented/s27_heavy.v",
+      "gate_count": 28,
+      "depth": 9,
+      "composite": 12.58146007804834
+    },
+    {
+      "filename": "s27_original.v",
+      "path": "data/augmented/s27_original.v",
+      "gate_count": 19,
+      "depth": 9,
+      "composite": 10.837079843903323
+    },
+    {
+      "filename": "s27_seq.v",
+      "path": "data/augmented/s27_seq.v",
+      "gate_count": 23,
+      "depth": 9,
+      "composite": 11.297452545929755
+    },
+    {
+      "filename": "s27_xor.v",
+      "path": "data/augmented/s27_xor.v",
+      "gate_count": 24,
+      "depth": 9,
+      "composite": 11.899973652605274
+    },
+    {
+      "filename": "s298_deep.v",
+      "path": "data/augmented/s298_deep.v",
+      "gate_count": 197,
+      "depth": 12,
+      "composite": 27.14941307676515
+    },
+    {
+      "filename": "s298_feedback.v",
+      "path": "data/augmented/s298_feedback.v",
+      "gate_count": 147,
+      "depth": 12,
+      "composite": 25.48621969160503
+    },
+    {
+      "filename": "s298_heavy.v",
+      "path": "data/augmented/s298_heavy.v",
+      "gate_count": 151,
+      "depth": 12,
+      "composite": 25.64064680587688
+    },
+    {
+      "filename": "s298_original.v",
+      "path": "data/augmented/s298_original.v",
+      "gate_count": 141,
+      "depth": 12,
+      "composite": 25.24564465147148
+    },
+    {
+      "filename": "s298_seq.v",
+      "path": "data/augmented/s298_seq.v",
+      "gate_count": 149,
+      "depth": 12,
+      "composite": 25.407255547869173
+    },
+    {
+      "filename": "s298_xor.v",
+      "path": "data/augmented/s298_xor.v",
+      "gate_count": 148,
+      "depth": 12,
+      "composite": 25.52525758037769
+    },
+    {
+      "filename": "s344_deep.v",
+      "path": "data/augmented/s344_deep.v",
+      "gate_count": 185,
+      "depth": 12,
+      "composite": 26.856553237545548
+    },
+    {
+      "filename": "s344_feedback.v",
+      "path": "data/augmented/s344_feedback.v",
+      "gate_count": 135,
+      "depth": 11,
+      "composite": 22.988956225833377
+    },
+    {
+      "filename": "s344_heavy.v",
+      "path": "data/augmented/s344_heavy.v",
+      "gate_count": 139,
+      "depth": 11,
+      "composite": 23.141840930515524
+    },
+    {
+      "filename": "s344_original.v",
+      "path": "data/augmented/s344_original.v",
+      "gate_count": 129,
+      "depth": 11,
+      "composite": 22.75004447920778
+    },
+    {
+      "filename": "s344_seq.v",
+      "path": "data/augmented/s344_seq.v",
+      "gate_count": 137,
+      "depth": 11,
+      "composite": 22.910639073480954
+    },
+    {
+      "filename": "s344_xor.v",
+      "path": "data/augmented/s344_xor.v",
+      "gate_count": 135,
+      "depth": 15,
+      "composite": 31.34857667159097
+    },
+    {
+      "filename": "s349_deep.v",
+      "path": "data/augmented/s349_deep.v",
+      "gate_count": 172,
+      "depth": 12,
+      "composite": 26.449439791871093
+    },
+    {
+      "filename": "s349_feedback.v",
+      "path": "data/augmented/s349_feedback.v",
+      "gate_count": 126,
+      "depth": 12,
+      "composite": 24.682858216037673
+    },
+    {
+      "filename": "s349_heavy.v",
+      "path": "data/augmented/s349_heavy.v",
+      "gate_count": 130,
+      "depth": 12,
+      "composite": 24.862584087673504
+    },
+    {
+      "filename": "s349_original.v",
+      "path": "data/augmented/s349_original.v",
+      "gate_count": 120,
+      "depth": 12,
+      "composite": 24.401085065843397
+    },
+    {
+      "filename": "s349_seq.v",
+      "path": "data/augmented/s349_seq.v",
+      "gate_count": 128,
+      "depth": 12,
+      "composite": 24.590616272042176
+    },
+    {
+      "filename": "s349_xor.v",
+      "path": "data/augmented/s349_xor.v",
+      "gate_count": 126,
+      "depth": 12,
+      "composite": 24.682858216037673
+    },
+    {
+      "filename": "s35932_deep.v",
+      "path": "data/augmented/s35932_deep.v",
+      "gate_count": 7336,
+      "depth": 11,
+      "composite": 41.43462967047645
+    },
+    {
+      "filename": "s35932_feedback.v",
+      "path": "data/augmented/s35932_feedback.v",
+      "gate_count": 8196,
+      "depth": 7,
+      "composite": 26.784791475313323
+    },
+    {
+      "filename": "s35932_heavy.v",
+      "path": "data/augmented/s35932_heavy.v",
+      "gate_count": 7592,
+      "depth": 7,
+      "composite": 26.49780717494671
+    },
+    {
+      "filename": "s35932_original.v",
+      "path": "data/augmented/s35932_original.v",
+      "gate_count": 7036,
+      "depth": 7,
+      "composite": 26.20731085339625
+    },
+    {
+      "filename": "s35932_seq.v",
+      "path": "data/augmented/s35932_seq.v",
+      "gate_count": 7520,
+      "depth": 7,
+      "composite": 26.33717437654483
+    },
+    {
+      "filename": "s35932_xor.v",
+      "path": "data/augmented/s35932_xor.v",
+      "gate_count": 7136,
+      "depth": 7,
+      "composite": 26.261647623826907
+    },
+    {
+      "filename": "s382_deep.v",
+      "path": "data/augmented/s382_deep.v",
+      "gate_count": 217,
+      "depth": 13,
+      "composite": 29.856647473399903
+    },
+    {
+      "filename": "s382_feedback.v",
+      "path": "data/augmented/s382_feedback.v",
+      "gate_count": 163,
+      "depth": 13,
+      "composite": 28.058712397238246
+    },
+    {
+      "filename": "s382_heavy.v",
+      "path": "data/augmented/s382_heavy.v",
+      "gate_count": 168,
+      "depth": 13,
+      "composite": 28.25142148935956
+    },
+    {
+      "filename": "s382_original.v",
+      "path": "data/augmented/s382_original.v",
+      "gate_count": 157,
+      "depth": 13,
+      "composite": 27.818428123216073
+    },
+    {
+      "filename": "s382_seq.v",
+      "path": "data/augmented/s382_seq.v",
+      "gate_count": 167,
+      "depth": 13,
+      "composite": 28.019368487045803
+    },
+    {
+      "filename": "s382_xor.v",
+      "path": "data/augmented/s382_xor.v",
+      "gate_count": 164,
+      "depth": 16,
+      "composite": 34.5818880357596
+    },
+    {
+      "filename": "s38417_deep.v",
+      "path": "data/augmented/s38417_deep.v",
+      "gate_count": 8369,
+      "depth": 30,
+      "composite": 115.3789728463645
+    },
+    {
+      "filename": "s38417_feedback.v",
+      "path": "data/augmented/s38417_feedback.v",
+      "gate_count": 9389,
+      "depth": 30,
+      "composite": 117.14795482186959
+    },
+    {
+      "filename": "s38417_heavy.v",
+      "path": "data/augmented/s38417_heavy.v",
+      "gate_count": 8700,
+      "depth": 30,
+      "composite": 115.97975400378826
+    },
+    {
+      "filename": "s38417_original.v",
+      "path": "data/augmented/s38417_original.v",
+      "gate_count": 8069,
+      "depth": 30,
+      "composite": 114.80944010735982
+    },
+    {
+      "filename": "s38417_seq.v",
+      "path": "data/augmented/s38417_seq.v",
+      "gate_count": 8619,
+      "depth": 30,
+      "composite": 115.33245121421473
+    },
+    {
+      "filename": "s38417_xor.v",
+      "path": "data/augmented/s38417_xor.v",
+      "gate_count": 8169,
+      "depth": 31,
+      "composite": 118.83546600618762
+    },
+    {
+      "filename": "s38584_deep.v",
+      "path": "data/augmented/s38584_deep.v",
+      "gate_count": 6869,
+      "depth": 20,
+      "composite": 75.47280386520052
+    },
+    {
+      "filename": "s38584_feedback.v",
+      "path": "data/augmented/s38584_feedback.v",
+      "gate_count": 7641,
+      "depth": 20,
+      "composite": 76.53445040337984
+    },
+    {
+      "filename": "s38584_heavy.v",
+      "path": "data/augmented/s38584_heavy.v",
+      "gate_count": 7084,
+      "depth": 21,
+      "composite": 79.5708252168486
+    },
+    {
+      "filename": "s38584_original.v",
+      "path": "data/augmented/s38584_original.v",
+      "gate_count": 6569,
+      "depth": 20,
+      "composite": 75.02250143071167
+    },
+    {
+      "filename": "s38584_seq.v",
+      "path": "data/augmented/s38584_seq.v",
+      "gate_count": 7017,
+      "depth": 20,
+      "composite": 75.36091628204834
+    },
+    {
+      "filename": "s38584_xor.v",
+      "path": "data/augmented/s38584_xor.v",
+      "gate_count": 6669,
+      "depth": 22,
+      "composite": 82.69273196601955
+    },
+    {
+      "filename": "s386_deep.v",
+      "path": "data/augmented/s386_deep.v",
+      "gate_count": 227,
+      "depth": 12,
+      "composite": 28.132707284221325
+    },
+    {
+      "filename": "s386_feedback.v",
+      "path": "data/augmented/s386_feedback.v",
+      "gate_count": 173,
+      "depth": 11,
+      "composite": 24.449881182623415
+    },
+    {
+      "filename": "s386_heavy.v",
+      "path": "data/augmented/s386_heavy.v",
+      "gate_count": 178,
+      "depth": 12,
+      "composite": 26.826341362890584
+    },
+    {
+      "filename": "s386_original.v",
+      "path": "data/augmented/s386_original.v",
+      "gate_count": 167,
+      "depth": 11,
+      "composite": 24.275084636350346
+    },
+    {
+      "filename": "s386_seq.v",
+      "path": "data/augmented/s386_seq.v",
+      "gate_count": 177,
+      "depth": 11,
+      "composite": 24.421188968440603
+    },
+    {
+      "filename": "s386_xor.v",
+      "path": "data/augmented/s386_xor.v",
+      "gate_count": 175,
+      "depth": 16,
+      "composite": 35.646187273818775
+    },
+    {
+      "filename": "s400_deep.v",
+      "path": "data/augmented/s400_deep.v",
+      "gate_count": 221,
+      "depth": 14,
+      "composite": 32.27491917225274
+    },
+    {
+      "filename": "s400_feedback.v",
+      "path": "data/augmented/s400_feedback.v",
+      "gate_count": 167,
+      "depth": 14,
+      "composite": 30.383664015529405
+    },
+    {
+      "filename": "s400_heavy.v",
+      "path": "data/augmented/s400_heavy.v",
+      "gate_count": 172,
+      "depth": 14,
+      "composite": 30.585680031446383
+    },
+    {
+      "filename": "s400_original.v",
+      "path": "data/augmented/s400_original.v",
+      "gate_count": 161,
+      "depth": 14,
+      "composite": 30.13203682136279
+    },
+    {
+      "filename": "s400_seq.v",
+      "path": "data/augmented/s400_seq.v",
+      "gate_count": 171,
+      "depth": 14,
+      "composite": 30.342442686474463
+    },
+    {
+      "filename": "s400_xor.v",
+      "path": "data/augmented/s400_xor.v",
+      "gate_count": 169,
+      "depth": 17,
+      "composite": 36.99355140394658
+    },
+    {
+      "filename": "s420_1_deep.v",
+      "path": "data/augmented/s420_1_deep.v",
+      "gate_count": 246,
+      "depth": 9,
+      "composite": 21.2725078190293
+    },
+    {
+      "filename": "s420_1_feedback.v",
+      "path": "data/augmented/s420_1_feedback.v",
+      "gate_count": 192,
+      "depth": 9,
+      "composite": 20.231759397256262
+    },
+    {
+      "filename": "s420_1_heavy.v",
+      "path": "data/augmented/s420_1_heavy.v",
+      "gate_count": 200,
+      "depth": 9,
+      "composite": 20.404545555627124
+    },
+    {
+      "filename": "s420_1_original.v",
+      "path": "data/augmented/s420_1_original.v",
+      "gate_count": 186,
+      "depth": 9,
+      "composite": 20.096964993529383
+    },
+    {
+      "filename": "s420_1_seq.v",
+      "path": "data/augmented/s420_1_seq.v",
+      "gate_count": 198,
+      "depth": 9,
+      "composite": 20.231759397256262
+    },
+    {
+      "filename": "s420_1_xor.v",
+      "path": "data/augmented/s420_1_xor.v",
+      "gate_count": 195,
+      "depth": 13,
+      "composite": 29.318542566342977
+    },
+    {
+      "filename": "s444_deep.v",
+      "path": "data/augmented/s444_deep.v",
+      "gate_count": 220,
+      "depth": 12,
+      "composite": 27.638352689045867
+    },
+    {
+      "filename": "s444_feedback.v",
+      "path": "data/augmented/s444_feedback.v",
+      "gate_count": 166,
+      "depth": 12,
+      "composite": 26.00780801697811
+    },
+    {
+      "filename": "s444_heavy.v",
+      "path": "data/augmented/s444_heavy.v",
+      "gate_count": 171,
+      "depth": 12,
+      "composite": 26.18212305533727
+    },
+    {
+      "filename": "s444_original.v",
+      "path": "data/augmented/s444_original.v",
+      "gate_count": 160,
+      "depth": 12,
+      "composite": 25.790629351864556
+    },
+    {
+      "filename": "s444_seq.v",
+      "path": "data/augmented/s444_seq.v",
+      "gate_count": 170,
+      "depth": 12,
+      "composite": 25.972234269413246
+    },
+    {
+      "filename": "s444_xor.v",
+      "path": "data/augmented/s444_xor.v",
+      "gate_count": 168,
+      "depth": 17,
+      "composite": 36.94416656300866
+    },
+    {
+      "filename": "s510_deep.v",
+      "path": "data/augmented/s510_deep.v",
+      "gate_count": 346,
+      "depth": 12,
+      "composite": 30.377747004507057
+    },
+    {
+      "filename": "s510_feedback.v",
+      "path": "data/augmented/s510_feedback.v",
+      "gate_count": 266,
+      "depth": 11,
+      "composite": 26.564706827678997
+    },
+    {
+      "filename": "s510_heavy.v",
+      "path": "data/augmented/s510_heavy.v",
+      "gate_count": 274,
+      "depth": 11,
+      "composite": 26.70948273431668
+    },
+    {
+      "filename": "s510_original.v",
+      "path": "data/augmented/s510_original.v",
+      "gate_count": 256,
+      "depth": 11,
+      "composite": 26.377340095392412
+    },
+    {
+      "filename": "s510_seq.v",
+      "path": "data/augmented/s510_seq.v",
+      "gate_count": 272,
+      "depth": 11,
+      "composite": 26.52781676559553
+    },
+    {
+      "filename": "s510_xor.v",
+      "path": "data/augmented/s510_xor.v",
+      "gate_count": 268,
+      "depth": 11,
+      "composite": 26.601314204517198
+    },
+    {
+      "filename": "s526_deep.v",
+      "path": "data/augmented/s526_deep.v",
+      "gate_count": 297,
+      "depth": 13,
+      "composite": 31.73181806684783
+    },
+    {
+      "filename": "s526_feedback.v",
+      "path": "data/augmented/s526_feedback.v",
+      "gate_count": 245,
+      "depth": 13,
+      "composite": 30.553224238344114
+    },
+    {
+      "filename": "s526_heavy.v",
+      "path": "data/augmented/s526_heavy.v",
+      "gate_count": 252,
+      "depth": 13,
+      "composite": 30.726955738597876
+    },
+    {
+      "filename": "s526_original.v",
+      "path": "data/augmented/s526_original.v",
+      "gate_count": 237,
+      "depth": 13,
+      "composite": 30.3478987649621
+    },
+    {
+      "filename": "s526_seq.v",
+      "path": "data/augmented/s526_seq.v",
+      "gate_count": 251,
+      "depth": 13,
+      "composite": 30.527963219626088
+    },
+    {
+      "filename": "s526_xor.v",
+      "path": "data/augmented/s526_xor.v",
+      "gate_count": 248,
+      "depth": 18,
+      "composite": 42.40846542947621
+    },
+    {
+      "filename": "s526n_deep.v",
+      "path": "data/augmented/s526n_deep.v",
+      "gate_count": 288,
+      "depth": 13,
+      "composite": 31.54464639773948
+    },
+    {
+      "filename": "s526n_feedback.v",
+      "path": "data/augmented/s526n_feedback.v",
+      "gate_count": 236,
+      "depth": 13,
+      "composite": 30.32169997890287
+    },
+    {
+      "filename": "s526n_heavy.v",
+      "path": "data/augmented/s526n_heavy.v",
+      "gate_count": 243,
+      "depth": 13,
+      "composite": 30.502588667858305
+    },
+    {
+      "filename": "s526n_original.v",
+      "path": "data/augmented/s526n_original.v",
+      "gate_count": 228,
+      "depth": 13,
+      "composite": 30.10761449093993
+    },
+    {
+      "filename": "s526n_seq.v",
+      "path": "data/augmented/s526n_seq.v",
+      "gate_count": 242,
+      "depth": 13,
+      "composite": 30.295379053539484
+    },
+    {
+      "filename": "s526n_xor.v",
+      "path": "data/augmented/s526n_xor.v",
+      "gate_count": 239,
+      "depth": 16,
+      "composite": 37.415303897673674
+    },
+    {
+      "filename": "s5378_deep.v",
+      "path": "data/augmented/s5378_deep.v",
+      "gate_count": 1532,
+      "depth": 20,
+      "composite": 63.14308879812563
+    },
+    {
+      "filename": "s5378_feedback.v",
+      "path": "data/augmented/s5378_feedback.v",
+      "gate_count": 1432,
+      "depth": 13,
+      "composite": 40.635483955813854
+    },
+    {
+      "filename": "s5378_heavy.v",
+      "path": "data/augmented/s5378_heavy.v",
+      "gate_count": 1329,
+      "depth": 13,
+      "composite": 40.18251999574451
+    },
+    {
+      "filename": "s5378_original.v",
+      "path": "data/augmented/s5378_original.v",
+      "gate_count": 1232,
+      "depth": 13,
+      "composite": 39.719918307875
+    },
+    {
+      "filename": "s5378_seq.v",
+      "path": "data/augmented/s5378_seq.v",
+      "gate_count": 1318,
+      "depth": 13,
+      "composite": 39.92967946623616
+    },
+    {
+      "filename": "s5378_xor.v",
+      "path": "data/augmented/s5378_xor.v",
+      "gate_count": 1296,
+      "depth": 13,
+      "composite": 40.02935619861912
+    },
+    {
+      "filename": "s641_deep.v",
+      "path": "data/augmented/s641_deep.v",
+      "gate_count": 248,
+      "depth": 4,
+      "composite": 9.491648011880427
+    },
+    {
+      "filename": "s641_feedback.v",
+      "path": "data/augmented/s641_feedback.v",
+      "gate_count": 194,
+      "depth": 4,
+      "composite": 9.040285551940299
+    },
+    {
+      "filename": "s641_heavy.v",
+      "path": "data/augmented/s641_heavy.v",
+      "gate_count": 202,
+      "depth": 4,
+      "composite": 9.115014403811315
+    },
+    {
+      "filename": "s641_original.v",
+      "path": "data/augmented/s641_original.v",
+      "gate_count": 188,
+      "depth": 4,
+      "composite": 8.9820506712566
+    },
+    {
+      "filename": "s641_seq.v",
+      "path": "data/augmented/s641_seq.v",
+      "gate_count": 200,
+      "depth": 4,
+      "composite": 9.040285551940299
+    },
+    {
+      "filename": "s641_xor.v",
+      "path": "data/augmented/s641_xor.v",
+      "gate_count": 197,
+      "depth": 4,
+      "composite": 9.068686913612055
+    },
+    {
+      "filename": "s713_deep.v",
+      "path": "data/augmented/s713_deep.v",
+      "gate_count": 247,
+      "depth": 5,
+      "composite": 11.855339311358682
+    },
+    {
+      "filename": "s713_feedback.v",
+      "path": "data/augmented/s713_feedback.v",
+      "gate_count": 193,
+      "depth": 5,
+      "composite": 11.288392874345924
+    },
+    {
+      "filename": "s713_heavy.v",
+      "path": "data/augmented/s713_heavy.v",
+      "gate_count": 201,
+      "depth": 5,
+      "composite": 11.382309020866222
+    },
+    {
+      "filename": "s713_original.v",
+      "path": "data/augmented/s713_original.v",
+      "gate_count": 187,
+      "depth": 5,
+      "composite": 11.215190243431472
+    },
+    {
+      "filename": "s713_seq.v",
+      "path": "data/augmented/s713_seq.v",
+      "gate_count": 199,
+      "depth": 5,
+      "composite": 11.288392874345924
+    },
+    {
+      "filename": "s713_xor.v",
+      "path": "data/augmented/s713_xor.v",
+      "gate_count": 196,
+      "depth": 5,
+      "composite": 11.324089115047682
+    },
+    {
+      "filename": "s820_deep.v",
+      "path": "data/augmented/s820_deep.v",
+      "gate_count": 472,
+      "depth": 11,
+      "composite": 29.362485686227235
+    },
+    {
+      "filename": "s820_feedback.v",
+      "path": "data/augmented/s820_feedback.v",
+      "gate_count": 373,
+      "depth": 10,
+      "composite": 25.658478186735177
+    },
+    {
+      "filename": "s820_heavy.v",
+      "path": "data/augmented/s820_heavy.v",
+      "gate_count": 376,
+      "depth": 12,
+      "composite": 30.832486915380553
+    },
+    {
+      "filename": "s820_original.v",
+      "path": "data/augmented/s820_original.v",
+      "gate_count": 352,
+      "depth": 10,
+      "composite": 25.403294747908735
+    },
+    {
+      "filename": "s820_seq.v",
+      "path": "data/augmented/s820_seq.v",
+      "gate_count": 374,
+      "depth": 10,
+      "composite": 25.538830266438744
+    },
+    {
+      "filename": "s820_xor.v",
+      "path": "data/augmented/s820_xor.v",
+      "gate_count": 369,
+      "depth": 10,
+      "composite": 25.61101383649056
+    },
+    {
+      "filename": "s832_deep.v",
+      "path": "data/augmented/s832_deep.v",
+      "gate_count": 454,
+      "depth": 12,
+      "composite": 31.82695609203988
+    },
+    {
+      "filename": "s832_feedback.v",
+      "path": "data/augmented/s832_feedback.v",
+      "gate_count": 352,
+      "depth": 10,
+      "composite": 25.403294747908735
+    },
+    {
+      "filename": "s832_heavy.v",
+      "path": "data/augmented/s832_heavy.v",
+      "gate_count": 358,
+      "depth": 10,
+      "composite": 25.477747053878225
+    },
+    {
+      "filename": "s832_original.v",
+      "path": "data/augmented/s832_original.v",
+      "gate_count": 334,
+      "depth": 10,
+      "composite": 25.171958979499745
+    },
+    {
+      "filename": "s832_seq.v",
+      "path": "data/augmented/s832_seq.v",
+      "gate_count": 356,
+      "depth": 10,
+      "composite": 25.31478917042255
+    },
+    {
+      "filename": "s832_xor.v",
+      "path": "data/augmented/s832_xor.v",
+      "gate_count": 350,
+      "depth": 10,
+      "composite": 25.37819095073274
+    },
+    {
+      "filename": "s838_1_deep.v",
+      "path": "data/augmented/s838_1_deep.v",
+      "gate_count": 484,
+      "depth": 12,
+      "composite": 31.89613675988535
+    },
+    {
+      "filename": "s838_1_feedback.v",
+      "path": "data/augmented/s838_1_feedback.v",
+      "gate_count": 385,
+      "depth": 12,
+      "composite": 30.617399975674502
+    },
+    {
+      "filename": "s838_1_heavy.v",
+      "path": "data/augmented/s838_1_heavy.v",
+      "gate_count": 391,
+      "depth": 16,
+      "composite": 40.93933712853065
+    },
+    {
+      "filename": "s838_1_original.v",
+      "path": "data/augmented/s838_1_original.v",
+      "gate_count": 364,
+      "depth": 12,
+      "composite": 30.30053768444214
+    },
+    {
+      "filename": "s838_1_seq.v",
+      "path": "data/augmented/s838_1_seq.v",
+      "gate_count": 388,
+      "depth": 12,
+      "composite": 30.483953697490485
+    },
+    {
+      "filename": "s838_1_xor.v",
+      "path": "data/augmented/s838_1_xor.v",
+      "gate_count": 382,
+      "depth": 12,
+      "composite": 30.57329646465387
+    },
+    {
+      "filename": "s9234_1_deep.v",
+      "path": "data/augmented/s9234_1_deep.v",
+      "gate_count": 1240,
+      "depth": 16,
+      "composite": 48.96512045901256
+    },
+    {
+      "filename": "s9234_1_feedback.v",
+      "path": "data/augmented/s9234_1_feedback.v",
+      "gate_count": 1092,
+      "depth": 16,
+      "composite": 48.0069452396691
+    },
+    {
+      "filename": "s9234_1_heavy.v",
+      "path": "data/augmented/s9234_1_heavy.v",
+      "gate_count": 1013,
+      "depth": 13,
+      "composite": 38.54150197369718
+    },
+    {
+      "filename": "s9234_1_original.v",
+      "path": "data/augmented/s9234_1_original.v",
+      "gate_count": 940,
+      "depth": 13,
+      "composite": 38.075799973171385
+    },
+    {
+      "filename": "s9234_1_seq.v",
+      "path": "data/augmented/s9234_1_seq.v",
+      "gate_count": 1004,
+      "depth": 13,
+      "composite": 38.28468680935662
+    },
+    {
+      "filename": "s9234_1_xor.v",
+      "path": "data/augmented/s9234_1_xor.v",
+      "gate_count": 988,
+      "depth": 13,
+      "composite": 38.3863017595732
+    },
+    {
+      "filename": "sasc_deep.v",
+      "path": "data/augmented/sasc_deep.v",
+      "gate_count": 686,
+      "depth": 14,
+      "composite": 38.70892178509844
+    },
+    {
+      "filename": "sasc_feedback.v",
+      "path": "data/augmented/sasc_feedback.v",
+      "gate_count": 568,
+      "depth": 12,
+      "composite": 31.998215766658568
+    },
+    {
+      "filename": "sasc_heavy.v",
+      "path": "data/augmented/sasc_heavy.v",
+      "gate_count": 568,
+      "depth": 12,
+      "composite": 31.998215766658568
+    },
+    {
+      "filename": "sasc_original.v",
+      "path": "data/augmented/sasc_original.v",
+      "gate_count": 536,
+      "depth": 12,
+      "composite": 31.625804961778943
+    },
+    {
+      "filename": "sasc_seq.v",
+      "path": "data/augmented/sasc_seq.v",
+      "gate_count": 564,
+      "depth": 12,
+      "composite": 31.792018304545703
+    },
+    {
+      "filename": "sasc_xor.v",
+      "path": "data/augmented/sasc_xor.v",
+      "gate_count": 558,
+      "depth": 12,
+      "composite": 31.884670234285245
+    },
+    {
+      "filename": "simple_spi_deep.v",
+      "path": "data/augmented/simple_spi_deep.v",
+      "gate_count": 1059,
+      "depth": 18,
+      "composite": 53.42428285188555
+    },
+    {
+      "filename": "simple_spi_feedback.v",
+      "path": "data/augmented/simple_spi_feedback.v",
+      "gate_count": 897,
+      "depth": 15,
+      "composite": 43.27193045923472
+    },
+    {
+      "filename": "simple_spi_heavy.v",
+      "path": "data/augmented/simple_spi_heavy.v",
+      "gate_count": 870,
+      "depth": 18,
+      "composite": 51.64617095515757
+    },
+    {
+      "filename": "simple_spi_original.v",
+      "path": "data/augmented/simple_spi_original.v",
+      "gate_count": 819,
+      "depth": 15,
+      "composite": 42.57328832861438
+    },
+    {
+      "filename": "simple_spi_seq.v",
+      "path": "data/augmented/simple_spi_seq.v",
+      "gate_count": 865,
+      "depth": 15,
+      "composite": 42.78719990455285
+    },
+    {
+      "filename": "simple_spi_xor.v",
+      "path": "data/augmented/simple_spi_xor.v",
+      "gate_count": 853,
+      "depth": 16,
+      "composite": 45.746212756712495
+    },
+    {
+      "filename": "sort_net_4x4bit_deep.v",
+      "path": "data/augmented/sort_net_4x4bit_deep.v",
+      "gate_count": 400,
+      "depth": 43,
+      "composite": 111.88857962710239
+    },
+    {
+      "filename": "sort_net_4x4bit_feedback.v",
+      "path": "data/augmented/sort_net_4x4bit_feedback.v",
+      "gate_count": 328,
+      "depth": 43,
+      "composite": 108.1825752796022
+    },
+    {
+      "filename": "sort_net_4x4bit_heavy.v",
+      "path": "data/augmented/sort_net_4x4bit_heavy.v",
+      "gate_count": 333,
+      "depth": 45,
+      "composite": 113.5099905077844
+    },
+    {
+      "filename": "sort_net_4x4bit_original.v",
+      "path": "data/augmented/sort_net_4x4bit_original.v",
+      "gate_count": 310,
+      "depth": 43,
+      "composite": 107.12855283487373
+    },
+    {
+      "filename": "sort_net_4x4bit_seq.v",
+      "path": "data/augmented/sort_net_4x4bit_seq.v",
+      "gate_count": 330,
+      "depth": 44,
+      "composite": 110.22659904607586
+    },
+    {
+      "filename": "sort_net_4x4bit_xor.v",
+      "path": "data/augmented/sort_net_4x4bit_xor.v",
+      "gate_count": 325,
+      "depth": 50,
+      "composite": 125.59416804894371
+    },
+    {
+      "filename": "sort_net_4x8bit_deep.v",
+      "path": "data/augmented/sort_net_4x8bit_deep.v",
+      "gate_count": 848,
+      "depth": 69,
+      "composite": 202.05931380571326
+    },
+    {
+      "filename": "sort_net_4x8bit_feedback.v",
+      "path": "data/augmented/sort_net_4x8bit_feedback.v",
+      "gate_count": 710,
+      "depth": 63,
+      "composite": 179.62927596930174
+    },
+    {
+      "filename": "sort_net_4x8bit_heavy.v",
+      "path": "data/augmented/sort_net_4x8bit_heavy.v",
+      "gate_count": 685,
+      "depth": 73,
+      "composite": 207.00541171894704
+    },
+    {
+      "filename": "sort_net_4x8bit_original.v",
+      "path": "data/augmented/sort_net_4x8bit_original.v",
+      "gate_count": 638,
+      "depth": 63,
+      "composite": 176.7037027594332
+    },
+    {
+      "filename": "sort_net_4x8bit_seq.v",
+      "path": "data/augmented/sort_net_4x8bit_seq.v",
+      "gate_count": 680,
+      "depth": 63,
+      "composite": 177.5897811194226
+    },
+    {
+      "filename": "sort_net_4x8bit_xor.v",
+      "path": "data/augmented/sort_net_4x8bit_xor.v",
+      "gate_count": 669,
+      "depth": 81,
+      "composite": 228.8595155391937
+    },
+    {
+      "filename": "sort_net_8x4bit_deep.v",
+      "path": "data/augmented/sort_net_8x4bit_deep.v",
+      "gate_count": 958,
+      "depth": 84,
+      "composite": 250.43470276259774
+    },
+    {
+      "filename": "sort_net_8x4bit_feedback.v",
+      "path": "data/augmented/sort_net_8x4bit_feedback.v",
+      "gate_count": 816,
+      "depth": 84,
+      "composite": 244.58197333532434
+    },
+    {
+      "filename": "sort_net_8x4bit_heavy.v",
+      "path": "data/augmented/sort_net_8x4bit_heavy.v",
+      "gate_count": 770,
+      "depth": 92,
+      "composite": 265.5571467158683
+    },
+    {
+      "filename": "sort_net_8x4bit_original.v",
+      "path": "data/augmented/sort_net_8x4bit_original.v",
+      "gate_count": 718,
+      "depth": 84,
+      "composite": 239.91445331635322
+    },
+    {
+      "filename": "sort_net_8x4bit_seq.v",
+      "path": "data/augmented/sort_net_8x4bit_seq.v",
+      "gate_count": 764,
+      "depth": 84,
+      "composite": 241.06472947026356
+    },
+    {
+      "filename": "sort_net_8x4bit_xor.v",
+      "path": "data/augmented/sort_net_8x4bit_xor.v",
+      "gate_count": 753,
+      "depth": 113,
+      "composite": 325.0778323106792
+    },
+    {
+      "filename": "sort_net_8x8bit_deep.v",
+      "path": "data/augmented/sort_net_8x8bit_deep.v",
+      "gate_count": 1778,
+      "depth": 131,
+      "composite": 425.7410601190795
+    },
+    {
+      "filename": "sort_net_8x8bit_feedback.v",
+      "path": "data/augmented/sort_net_8x8bit_feedback.v",
+      "gate_count": 1710,
+      "depth": 124,
+      "composite": 400.89151768862706
+    },
+    {
+      "filename": "sort_net_8x8bit_heavy.v",
+      "path": "data/augmented/sort_net_8x8bit_heavy.v",
+      "gate_count": 1589,
+      "depth": 146,
+      "composite": 467.3640889922774
+    },
+    {
+      "filename": "sort_net_8x8bit_original.v",
+      "path": "data/augmented/sort_net_8x8bit_original.v",
+      "gate_count": 1478,
+      "depth": 124,
+      "composite": 393.03962982329205
+    },
+    {
+      "filename": "sort_net_8x8bit_seq.v",
+      "path": "data/augmented/sort_net_8x8bit_seq.v",
+      "gate_count": 1576,
+      "depth": 125,
+      "composite": 397.97987963205264
+    },
+    {
+      "filename": "sort_net_8x8bit_xor.v",
+      "path": "data/augmented/sort_net_8x8bit_xor.v",
+      "gate_count": 1551,
+      "depth": 164,
+      "composite": 523.2603348414312
+    },
+    {
+      "filename": "spi_deep.v",
+      "path": "data/augmented/spi_deep.v",
+      "gate_count": 3515,
+      "depth": 31,
+      "composite": 109.06985178190567
+    },
+    {
+      "filename": "spi_feedback.v",
+      "path": "data/augmented/spi_feedback.v",
+      "gate_count": 3695,
+      "depth": 25,
+      "composite": 88.53636071868972
+    },
+    {
+      "filename": "spi_heavy.v",
+      "path": "data/augmented/spi_heavy.v",
+      "gate_count": 3445,
+      "depth": 25,
+      "composite": 87.72670112542905
+    },
+    {
+      "filename": "spi_original.v",
+      "path": "data/augmented/spi_original.v",
+      "gate_count": 3215,
+      "depth": 25,
+      "composite": 86.92441164398818
+    },
+    {
+      "filename": "spi_seq.v",
+      "path": "data/augmented/spi_seq.v",
+      "gate_count": 3415,
+      "depth": 25,
+      "composite": 87.28053940598207
+    },
+    {
+      "filename": "spi_xor.v",
+      "path": "data/augmented/spi_xor.v",
+      "gate_count": 3315,
+      "depth": 25,
+      "composite": 87.28053940598207
+    },
+    {
+      "filename": "ss_pcm_deep.v",
+      "path": "data/augmented/ss_pcm_deep.v",
+      "gate_count": 542,
+      "depth": 12,
+      "composite": 32.41881582067113
+    },
+    {
+      "filename": "ss_pcm_feedback.v",
+      "path": "data/augmented/ss_pcm_feedback.v",
+      "gate_count": 443,
+      "depth": 12,
+      "composite": 31.27657638132726
+    },
+    {
+      "filename": "ss_pcm_heavy.v",
+      "path": "data/augmented/ss_pcm_heavy.v",
+      "gate_count": 450,
+      "depth": 12,
+      "composite": 31.36610186251283
+    },
+    {
+      "filename": "ss_pcm_original.v",
+      "path": "data/augmented/ss_pcm_original.v",
+      "gate_count": 422,
+      "depth": 12,
+      "composite": 30.998385287623474
+    },
+    {
+      "filename": "ss_pcm_seq.v",
+      "path": "data/augmented/ss_pcm_seq.v",
+      "gate_count": 448,
+      "depth": 12,
+      "composite": 31.172342231106146
+    },
+    {
+      "filename": "ss_pcm_xor.v",
+      "path": "data/augmented/ss_pcm_xor.v",
+      "gate_count": 441,
+      "depth": 12,
+      "composite": 31.25071263701364
+    },
+    {
+      "filename": "steppermotordrive_deep.v",
+      "path": "data/augmented/steppermotordrive_deep.v",
+      "gate_count": 286,
+      "depth": 12,
+      "composite": 28.99968608805937
+    },
+    {
+      "filename": "steppermotordrive_feedback.v",
+      "path": "data/augmented/steppermotordrive_feedback.v",
+      "gate_count": 234,
+      "depth": 12,
+      "composite": 27.84175543333265
+    },
+    {
+      "filename": "steppermotordrive_heavy.v",
+      "path": "data/augmented/steppermotordrive_heavy.v",
+      "gate_count": 240,
+      "depth": 12,
+      "composite": 27.989261518987263
+    },
+    {
+      "filename": "steppermotordrive_original.v",
+      "path": "data/augmented/steppermotordrive_original.v",
+      "gate_count": 226,
+      "depth": 12,
+      "composite": 27.638352689045867
+    },
+    {
+      "filename": "steppermotordrive_seq.v",
+      "path": "data/augmented/steppermotordrive_seq.v",
+      "gate_count": 238,
+      "depth": 12,
+      "composite": 27.791644145483012
+    },
+    {
+      "filename": "steppermotordrive_xor.v",
+      "path": "data/augmented/steppermotordrive_xor.v",
+      "gate_count": 236,
+      "depth": 15,
+      "composite": 34.86423682946539
+    },
+    {
+      "filename": "systemcaes_deep.v",
+      "path": "data/augmented/systemcaes_deep.v",
+      "gate_count": 8095,
+      "depth": 45,
+      "composite": 174.6083048771895
+    },
+    {
+      "filename": "systemcaes_feedback.v",
+      "path": "data/augmented/systemcaes_feedback.v",
+      "gate_count": 8955,
+      "depth": 44,
+      "composite": 172.77943364491065
+    },
+    {
+      "filename": "systemcaes_heavy.v",
+      "path": "data/augmented/systemcaes_heavy.v",
+      "gate_count": 8352,
+      "depth": 44,
+      "composite": 171.36452536691476
+    },
+    {
+      "filename": "systemcaes_original.v",
+      "path": "data/augmented/systemcaes_original.v",
+      "gate_count": 7795,
+      "depth": 44,
+      "composite": 169.95738981005786
+    },
+    {
+      "filename": "systemcaes_seq.v",
+      "path": "data/augmented/systemcaes_seq.v",
+      "gate_count": 8281,
+      "depth": 44,
+      "composite": 170.58405369916358
+    },
+    {
+      "filename": "systemcaes_xor.v",
+      "path": "data/augmented/systemcaes_xor.v",
+      "gate_count": 7895,
+      "depth": 44,
+      "composite": 170.2177693285857
+    },
+    {
+      "filename": "systemcdes_deep.v",
+      "path": "data/augmented/systemcdes_deep.v",
+      "gate_count": 3590,
+      "depth": 35,
+      "composite": 123.74415477118337
+    },
+    {
+      "filename": "systemcdes_feedback.v",
+      "path": "data/augmented/systemcdes_feedback.v",
+      "gate_count": 3786,
+      "depth": 31,
+      "composite": 110.34968563002978
+    },
+    {
+      "filename": "systemcdes_heavy.v",
+      "path": "data/augmented/systemcdes_heavy.v",
+      "gate_count": 3529,
+      "depth": 34,
+      "composite": 119.94379758571304
+    },
+    {
+      "filename": "systemcdes_original.v",
+      "path": "data/augmented/systemcdes_original.v",
+      "gate_count": 3290,
+      "depth": 31,
+      "composite": 108.37047435496308
+    },
+    {
+      "filename": "systemcdes_seq.v",
+      "path": "data/augmented/systemcdes_seq.v",
+      "gate_count": 3498,
+      "depth": 31,
+      "composite": 108.81026390114728
+    },
+    {
+      "filename": "systemcdes_xor.v",
+      "path": "data/augmented/systemcdes_xor.v",
+      "gate_count": 3390,
+      "depth": 32,
+      "composite": 112.30308326728155
+    },
+    {
+      "filename": "tv80_deep.v",
+      "path": "data/augmented/tv80_deep.v",
+      "gate_count": 7395,
+      "depth": 46,
+      "composite": 177.15507010401137
+    },
+    {
+      "filename": "tv80_feedback.v",
+      "path": "data/augmented/tv80_feedback.v",
+      "gate_count": 8183,
+      "depth": 46,
+      "composite": 179.25794467799716
+    },
+    {
+      "filename": "tv80_heavy.v",
+      "path": "data/augmented/tv80_heavy.v",
+      "gate_count": 7616,
+      "depth": 46,
+      "composite": 177.76750972868604
+    },
+    {
+      "filename": "tv80_original.v",
+      "path": "data/augmented/tv80_original.v",
+      "gate_count": 7095,
+      "depth": 46,
+      "composite": 176.2924718940091
+    },
+    {
+      "filename": "tv80_seq.v",
+      "path": "data/augmented/tv80_seq.v",
+      "gate_count": 7549,
+      "depth": 46,
+      "composite": 176.9485746909763
+    },
+    {
+      "filename": "tv80_xor.v",
+      "path": "data/augmented/tv80_xor.v",
+      "gate_count": 7195,
+      "depth": 46,
+      "composite": 176.58416266754335
+    },
+    {
+      "filename": "uart_tx_8bit_deep.v",
+      "path": "data/augmented/uart_tx_8bit_deep.v",
+      "gate_count": 115,
+      "depth": 13,
+      "composite": 26.166883921167237
+    },
+    {
+      "filename": "uart_tx_8bit_feedback.v",
+      "path": "data/augmented/uart_tx_8bit_feedback.v",
+      "gate_count": 89,
+      "depth": 13,
+      "composite": 24.524379427242263
+    },
+    {
+      "filename": "uart_tx_8bit_heavy.v",
+      "path": "data/augmented/uart_tx_8bit_heavy.v",
+      "gate_count": 92,
+      "depth": 13,
+      "composite": 24.740169830895265
+    },
+    {
+      "filename": "uart_tx_8bit_original.v",
+      "path": "data/augmented/uart_tx_8bit_original.v",
+      "gate_count": 83,
+      "depth": 13,
+      "composite": 24.066358533347977
+    },
+    {
+      "filename": "uart_tx_8bit_seq.v",
+      "path": "data/augmented/uart_tx_8bit_seq.v",
+      "gate_count": 87,
+      "depth": 13,
+      "composite": 24.223197181565926
+    },
+    {
+      "filename": "uart_tx_8bit_xor.v",
+      "path": "data/augmented/uart_tx_8bit_xor.v",
+      "gate_count": 88,
+      "depth": 13,
+      "composite": 24.450576699650288
+    },
+    {
+      "filename": "usb_funct_deep.v",
+      "path": "data/augmented/usb_funct_deep.v",
+      "gate_count": 12365,
+      "depth": 26,
+      "composite": 105.43784847303345
+    },
+    {
+      "filename": "usb_funct_feedback.v",
+      "path": "data/augmented/usb_funct_feedback.v",
+      "gate_count": 13865,
+      "depth": 26,
+      "composite": 106.83850895706229
+    },
+    {
+      "filename": "usb_funct_heavy.v",
+      "path": "data/augmented/usb_funct_heavy.v",
+      "gate_count": 12926,
+      "depth": 29,
+      "composite": 118.21095477347572
+    },
+    {
+      "filename": "usb_funct_original.v",
+      "path": "data/augmented/usb_funct_original.v",
+      "gate_count": 12065,
+      "depth": 26,
+      "composite": 105.13559122567064
+    },
+    {
+      "filename": "usb_funct_seq.v",
+      "path": "data/augmented/usb_funct_seq.v",
+      "gate_count": 12815,
+      "depth": 26,
+      "composite": 105.51216529078756
+    },
+    {
+      "filename": "usb_funct_xor.v",
+      "path": "data/augmented/usb_funct_xor.v",
+      "gate_count": 12165,
+      "depth": 26,
+      "composite": 105.2372452839331
+    },
+    {
+      "filename": "usb_phy_deep.v",
+      "path": "data/augmented/usb_phy_deep.v",
+      "gate_count": 714,
+      "depth": 14,
+      "composite": 39.17143501232074
+    },
+    {
+      "filename": "usb_phy_feedback.v",
+      "path": "data/augmented/usb_phy_feedback.v",
+      "gate_count": 570,
+      "depth": 14,
+      "composite": 37.58783506302177
+    },
+    {
+      "filename": "usb_phy_heavy.v",
+      "path": "data/augmented/usb_phy_heavy.v",
+      "gate_count": 570,
+      "depth": 24,
+      "composite": 64.43628867946589
+    },
+    {
+      "filename": "usb_phy_original.v",
+      "path": "data/augmented/usb_phy_original.v",
+      "gate_count": 534,
+      "depth": 14,
+      "composite": 37.117892195974015
+    },
+    {
+      "filename": "usb_phy_seq.v",
+      "path": "data/augmented/usb_phy_seq.v",
+      "gate_count": 566,
+      "depth": 14,
+      "composite": 37.33125172776833
+    },
+    {
+      "filename": "usb_phy_xor.v",
+      "path": "data/augmented/usb_phy_xor.v",
+      "gate_count": 558,
+      "depth": 17,
+      "composite": 45.45701397677949
+    },
+    {
+      "filename": "vga_lcd_deep.v",
+      "path": "data/augmented/vga_lcd_deep.v",
+      "gate_count": 112774,
+      "depth": 26,
+      "composite": 130.7912773341175
+    },
+    {
+      "filename": "vga_lcd_feedback.v",
+      "path": "data/augmented/vga_lcd_feedback.v",
+      "gate_count": 129594,
+      "depth": 26,
+      "composite": 132.43615540154298
+    },
+    {
+      "filename": "vga_lcd_heavy.v",
+      "path": "data/augmented/vga_lcd_heavy.v",
+      "gate_count": 120677,
+      "depth": 26,
+      "composite": 131.59403916344954
+    },
+    {
+      "filename": "vga_lcd_original.v",
+      "path": "data/augmented/vga_lcd_original.v",
+      "gate_count": 112474,
+      "depth": 26,
+      "composite": 130.7596506811433
+    },
+    {
+      "filename": "vga_lcd_seq.v",
+      "path": "data/augmented/vga_lcd_seq.v",
+      "gate_count": 119608,
+      "depth": 26,
+      "composite": 131.13007577638646
+    },
+    {
+      "filename": "vga_lcd_xor.v",
+      "path": "data/augmented/vga_lcd_xor.v",
+      "gate_count": 112574,
+      "depth": 26,
+      "composite": 130.77020274438212
+    },
+    {
+      "filename": "wb_conmax_deep.v",
+      "path": "data/augmented/wb_conmax_deep.v",
+      "gate_count": 29317,
+      "depth": 22,
+      "composite": 98.02801853686009
+    },
+    {
+      "filename": "wb_conmax_feedback.v",
+      "path": "data/augmented/wb_conmax_feedback.v",
+      "gate_count": 33577,
+      "depth": 23,
+      "composite": 103.8724045910537
+    },
+    {
+      "filename": "wb_conmax_heavy.v",
+      "path": "data/augmented/wb_conmax_heavy.v",
+      "gate_count": 31203,
+      "depth": 25,
+      "composite": 112.08968242422235
+    },
+    {
+      "filename": "wb_conmax_original.v",
+      "path": "data/augmented/wb_conmax_original.v",
+      "gate_count": 29017,
+      "depth": 17,
+      "composite": 75.67097161525541
+    },
+    {
+      "filename": "wb_conmax_seq.v",
+      "path": "data/augmented/wb_conmax_seq.v",
+      "gate_count": 30919,
+      "depth": 17,
+      "composite": 75.91530014098687
+    },
+    {
+      "filename": "wb_conmax_xor.v",
+      "path": "data/augmented/wb_conmax_xor.v",
+      "gate_count": 29117,
+      "depth": 17,
+      "composite": 75.6970471039425
+    },
+    {
+      "filename": "wb_dma_deep.v",
+      "path": "data/augmented/wb_dma_deep.v",
+      "gate_count": 3495,
+      "depth": 32,
+      "composite": 111.82630349536636
+    },
+    {
+      "filename": "wb_dma_feedback.v",
+      "path": "data/augmented/wb_dma_feedback.v",
+      "gate_count": 3651,
+      "depth": 24,
+      "composite": 84.37779400006477
+    },
+    {
+      "filename": "wb_dma_heavy.v",
+      "path": "data/augmented/wb_dma_heavy.v",
+      "gate_count": 3412,
+      "depth": 24,
+      "composite": 83.5889660066101
+    },
+    {
+      "filename": "wb_dma_original.v",
+      "path": "data/augmented/wb_dma_original.v",
+      "gate_count": 3195,
+      "depth": 24,
+      "composite": 82.81706107552606
+    },
+    {
+      "filename": "wb_dma_seq.v",
+      "path": "data/augmented/wb_dma_seq.v",
+      "gate_count": 3385,
+      "depth": 24,
+      "composite": 83.16204690137839
+    },
+    {
+      "filename": "wb_dma_xor.v",
+      "path": "data/augmented/wb_dma_xor.v",
+      "gate_count": 3295,
+      "depth": 24,
+      "composite": 83.17989156857847
+    }
+  ],
+  "failed": []
+}
