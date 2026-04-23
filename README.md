@@ -176,7 +176,3 @@ plots/
 This project was developed as a diploma thesis exploring the application of graph neural networks to electronic design automation (EDA). The central question: can structural properties visible in a gate-level netlist predict synthesis complexity well enough to replace expensive tool runs in early-stage design exploration?
 
 ---
-
-## License
-
-MIT
